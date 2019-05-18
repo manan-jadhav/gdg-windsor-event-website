@@ -9,7 +9,8 @@
     <v-flex xs12 md4>
       <v-card>
         <v-card-text>
-          <p class="display-1">Oct. 5, 2019<br/>University of Windsor<br/>Odette Building</p>
+          <p class="display-1">Oct. 5, 2019</p>
+          <p class="headline">University of Windsor,<br/>Odette Building</p>
         </v-card-text>
          <v-img
         height="100px"
