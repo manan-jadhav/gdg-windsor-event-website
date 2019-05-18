@@ -12,20 +12,20 @@
         <v-card-text>
           <p class="display-2">Oct. 5, 2019</p>
           <p>
-            The Windsor Google Developers Group (GDG) is proud to host the first ever Windsor-Essex DevFest on Saturday, Feb 23, 2019 at the Institute for Border Logistics and Security in Windsor, Ontario.
+            The Windsor Google Developers Group (GDG) is proud to host the first ever Windsor-Essex DevFest on Saturday, Oct 5, 2019 at the University of Windsor (Odette Building).
           </p>
         </v-card-text>
         <v-card-actions>
-          <v-btn icon flat color="primary">
+          <!-- <v-btn icon flat color="primary">
             <v-icon >share</v-icon>
-          </v-btn>
-          <v-btn color="primary">
-             Register
-          </v-btn>
+          </v-btn> -->
+          <!-- <v-btn color="primary" @click="openSubscriptionPopup">
+            Subscribe to updates
+          </v-btn> -->
         </v-card-actions>
       </v-card>
     </v-flex>
-    <v-flex xs12 md4>
+    <v-flex xs12 md12>
       <v-card>
         <v-card-title class="headline">What is a DevFest? </v-card-title>
         <v-card-text>
@@ -35,7 +35,7 @@
         </v-card-text>
       </v-card>
     </v-flex>
-    <v-flex xs12 md8>
+    <v-flex xs12 md12>
       <v-card>
         <v-card-title class="headline">What can you expect at the Windsor-Essex DevFest? </v-card-title>
         <v-card-text>
@@ -45,7 +45,7 @@
         </v-card-text>
       </v-card>
     </v-flex>
-    <v-flex xs12 md6>
+    <v-flex xs12 md12>
       <v-card>
         <v-card-title class="headline">What technologies will we be covering? </v-card-title>
         <v-card-text>
@@ -67,3 +67,4 @@
   height: 100%;
 }
 </style>
+

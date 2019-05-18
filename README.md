@@ -15,7 +15,7 @@ $ npm run dev
 $ npm run build
 $ npm start
 
-# generate static project
+# generate static project (to dist/ directory)
 $ npm run generate
 ```
 

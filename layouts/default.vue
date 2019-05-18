@@ -29,9 +29,14 @@
       color="primary"
     >
       <!-- <v-toolbar-side-icon @click="drawer = !drawer" /> -->
-      <v-toolbar-title v-text="title" :to="'/'"/>
+      <!-- <v-btn to="/" flat>
+        <v-toolbar-title v-text="title"/>
+      </v-btn> -->
+      <v-toolbar-title>
+          <router-link to="/" class="toolbar-title">{{title}}</router-link>
+      </v-toolbar-title>
       <v-spacer />
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-toolbar-items >
         <v-btn v-for="item in items" :key="item.title" :to="item.to" flat>{{item.title}}</v-btn>
       </v-toolbar-items>
 
@@ -69,7 +74,8 @@
       color="primary"
       class="text-xs-center"
     >
-      <v-card-text>
+    <!-- Disable social media btns -->
+      <!-- <v-card-text>
         <v-btn
           v-for="icon in icons"
           :key="icon"
@@ -78,7 +84,7 @@
         >
           <v-icon size="24px">{{ icon }}</v-icon>
         </v-btn>
-      </v-card-text>
+      </v-card-text> -->
       <v-card-text>
         <blockquote class="blockquote">
         &#8220;First, solve the problem. Then, write the code.&#8221;
@@ -93,12 +99,19 @@
       <v-divider></v-divider>
 
       <v-card-text class="primary darken-2">
-        &copy;2018 — <strong>GDG Windsor</strong>
+        &copy;2019 — <strong>GDG Windsor</strong>
       </v-card-text>
     </v-card>
     </v-footer>
   </v-app>
 </template>
+
+<style scoped>
+.toolbar-title {
+  color: #fff;
+  text-decoration: none;
+}
+</style>
 
 <script>
 export default {
@@ -114,21 +127,29 @@ export default {
       drawer: false,
       fixed: false,
       items: [
+        // {
+        //   title: 'Home',
+        //   to: '/'
+        // },
+        // {
+        //   title: 'Schedule',
+        //   to: '/schedule'
+        // },
+        // {
+        //   title: 'Speakers',
+        //   to: '/speakers'
+        // },
+        // {
+        //   title: 'Register',
+        //   to: '/tickets'
+        // }
         {
-          title: 'Home',
-          to: '/'
+          title: 'Team',
+          to: '/team'
         },
         {
-          title: 'Schedule',
-          to: '/schedule'
-        },
-        {
-          title: 'Speakers',
-          to: '/speakers'
-        },
-        {
-          title: 'Register',
-          to: '/tickets'
+          title: 'Call For Papers',
+          href: 'https://google.com'
         }
       ],
       title: 'GDG Windsor-Essex DevFest 2019',
