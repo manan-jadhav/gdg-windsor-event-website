@@ -33,7 +33,7 @@
       </v-toolbar-title>
       <v-spacer />
       <v-toolbar-items >
-        <v-btn v-for="item in items" :key="item.title" :to="item.to" flat>{{item.title}}</v-btn>
+        <v-btn v-for="item in items" :key="item.title" :href="item.href" :to="item.to" flat>{{item.title}}</v-btn>
       </v-toolbar-items>
 
       <v-menu :nudge-width="100">
