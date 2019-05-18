@@ -36,7 +36,7 @@
 <script>
   import manan from '../static/manan.jpg'
   import don from '../static/don.png'
-  import ali from '../static/ali.jpg'
+  import ali from '../static/ali.png'
 
   export default {
     data: () => ({
@@ -48,27 +48,30 @@
           socials: {
             facebook: 'https://www.facebook.com/don.ward.395',
             twitter: 'https://twitter.com/donwardpeng',
-            github: 'https://github.com/donwardpeng'
+            github: 'https://github.com/donwardpeng',
+            linkedin: 'https://www.linkedin.com/in/donwardpeng/'
           }
         },
         {
           name: 'Ali El-Sharif',
           image: ali,
-          description: '',
+          description: 'Ali El-Sharif lives in Windsor and works as a Business Intelligence Consultant for Motifworks in metro Detroit.  Ali is a Ph.D. candidate at Nova Southeastern University, conducting research in Machine Learning interpretability.',
           socials: {
-            facebook: 'https://facebook.com',
-            twitter: 'https://twitter.com',
-            github: 'https://github.com'
+            facebook: 'https://facebook.com/ali.elsharif.969',
+            twitter: 'https://twitter.com/elsharifali',
+            github: 'https://github.com/elsharifali',
+            linkedin: 'https://www.linkedin.com/in/elsharifali'
           }
         },
         {
           name: 'Manan Jadhav',
           image: manan,
-          description: 'Manan is a graduate student at the University of Windsor. He is also the founder of an online animated video maker service, MotionDen Inc.',
+          description: 'Manan is a graduate student at the University of Windsor. He is also the founder of an online animated video maker service, MotionDen Inc. Manan was previously an organiser at GDG Baroda, and loves building and getting invloved in local communities.',
           socials: {
             facebook: 'https://www.facebook.com/jadhavmanan',
             twitter: 'https://twitter.com/curosmj',
-            github: 'https://github.com/curosmj'
+            github: 'https://github.com/curosmj',
+            linkedin: 'https://www.linkedin.com/in/curosmj/'
           }
         }
       ]
