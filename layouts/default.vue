@@ -28,10 +28,6 @@
       dark
       color="primary"
     >
-      <!-- <v-toolbar-side-icon @click="drawer = !drawer" /> -->
-      <!-- <v-btn to="/" flat>
-        <v-toolbar-title v-text="title"/>
-      </v-btn> -->
       <v-toolbar-title>
           <router-link to="/" class="toolbar-title">{{title}}</router-link>
       </v-toolbar-title>
@@ -149,10 +145,11 @@ export default {
         },
         {
           title: 'Call For Papers',
-          href: 'https://google.com'
+          href: 'https://www.papercall.io/wedevfest2019'
         }
       ],
       title: 'GDG Windsor-Essex DevFest 2019',
+      gdglogo: '../static/gdg.png'
     }
   }
 }

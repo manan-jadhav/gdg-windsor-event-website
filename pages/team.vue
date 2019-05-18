@@ -35,23 +35,25 @@
 </template>
 <script>
   import manan from '../static/manan.jpg'
+  import don from '../static/don.png'
+  import ali from '../static/ali.jpg'
 
   export default {
     data: () => ({
       speakers: [
         {
           name: 'Don Ward',
-          image: manan,
-          description: '',
+          image: don,
+          description: 'Don Ward currently helps lead the Detroit and Windsor Google Developers Groups. An avid technologist, he enjoys hosting software developer events as well as networking within the local software development community. During the day, Don works at Quicken Loans in downtown Detroit.',
           socials: {
-            facebook: 'https://facebook.com',
-            twitter: 'https://twitter.com',
-            github: 'https://github.com'
+            facebook: 'https://www.facebook.com/don.ward.395',
+            twitter: 'https://twitter.com/donwardpeng',
+            github: 'https://github.com/donwardpeng'
           }
         },
         {
           name: 'Ali El-Sharif',
-          image: manan,
+          image: ali,
           description: '',
           socials: {
             facebook: 'https://facebook.com',

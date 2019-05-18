@@ -3,18 +3,17 @@
   <v-layout row wrap >
     <v-flex xs12 md8>
       <v-card>
-        <img class="responsive" src="logo.png" style="padding: 40px; width: 100%;" />
+      <img class="responsive" src="logo.png" style="padding: 40px; width: 100%;" />
       </v-card>
     </v-flex>
     <v-flex xs12 md4>
       <v-card>
-        <v-card-title class="body-2">GDG Windsor-Essex DevFest 2019</v-card-title>
         <v-card-text>
-          <p class="display-2">Oct. 5, 2019</p>
-          <p>
-            The Windsor Google Developers Group (GDG) is proud to host the first ever Windsor-Essex DevFest on Saturday, Oct 5, 2019 at the University of Windsor (Odette Building).
-          </p>
+          <p class="display-1">Oct. 5, 2019<br/>University of Windsor<br/>Odette Building</p>
         </v-card-text>
+         <v-img
+        height="100px"
+        src="gdg.png"></v-img>
         <v-card-actions>
           <!-- <v-btn icon flat color="primary">
             <v-icon >share</v-icon>
@@ -27,10 +26,10 @@
     </v-flex>
     <v-flex xs12 md12>
       <v-card>
-        <v-card-title class="headline">What is a DevFest? </v-card-title>
+        <v-card-title class="headline">What is the Windsor-Essex DevFest? </v-card-title>
         <v-card-text>
           <p>
-            DevFests are Google sponsored software developer conferences that allow the local software development community to come together to network and learn about the coolest new technology out there.
+            The Windsor Google Developers Group (GDG) is proud to host our second Windsor-Essex DevFest on Saturday, Oct 5, 2019 at the University of Windsor Odette Building. DevFests are Google sponsored software developer conferences that allow the local software development community to come together to network and learn about the coolest new technology out there.
           </p>
         </v-card-text>
       </v-card>
@@ -50,10 +49,10 @@
         <v-card-title class="headline">What technologies will we be covering? </v-card-title>
         <v-card-text>
           <p>
-            Some of the coolest development technologies out there including Flutter, TensorFlow, and Google Cloud Platform (GCP). 
+            Some of the coolest development technologies out there including Flutter, Android, TensorFlow, and Google Cloud Platform (GCP). 
           </p>
           <p>
-            Head over to the Speakers & Sessions page for more details. More speakers will be added soon!
+            Head over to the Speakers & Sessions page for more details. We are currently looking for speakers - click on the Call for Papers button above if you are interested in speaking!
           </p>
         </v-card-text>
       </v-card>
