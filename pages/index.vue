@@ -26,6 +26,11 @@
       </v-card>
     </v-flex>
     <v-flex xs12 md12>
+      <v-card color=yellow>
+        <v-card-title class="headline">We are currently looking for speakers - click on the 'Call for Papers' button to apply to speak.</v-card-title>
+      </v-card>
+    </v-flex>
+    <v-flex xs12 md12>
       <v-card>
         <v-card-title class="headline">What is the Windsor-Essex DevFest? </v-card-title>
         <v-card-text>
