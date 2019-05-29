@@ -144,6 +144,10 @@ export default {
           to: '/team'
         },
         {
+          title: 'Sponsors',
+          href: '/sponsors'
+        },
+        {
           title: 'Call For Papers',
           href: 'https://www.papercall.io/wedevfest2019'
         }
