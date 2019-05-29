@@ -5,7 +5,7 @@
 
     <v-container grid-list-md >
       <v-layout row wrap>
-        <v-flex xs12 md4 v-for="(speaker, i) in speakers" :key="i">
+        <v-flex xs6 md3 v-for="(speaker, i) in speakers" :key="i">
           <v-card>
             <v-img 
             height="250px"
@@ -33,10 +33,12 @@
     </v-container>
   </v-layout>
 </template>
+
 <script>
   import manan from '../static/manan.jpg'
   import don from '../static/don.png'
   import ali from '../static/ali.png'
+  import joshua from '../static/joshua.png'
 
   export default {
     data: () => ({
@@ -72,6 +74,17 @@
             twitter: 'https://twitter.com/curosmj',
             github: 'https://github.com/curosmj',
             linkedin: 'https://www.linkedin.com/in/curosmj/'
+          }
+        },
+        {
+          name: 'Joshua Gehl',
+          image: joshua,
+          description: 'Joshua Gehl is an undergraduate computer science student at the University of WIndsor. He enjoys programming as a hobby and also as a career. Josh has competed in various programming competitions and has placed 1st. Josh wants to help make a difference in others’ lives through engagement with the community.',
+          socials: {
+            facebook: 'https://www.facebook.com/jgehl99',
+            twitter: 'https://twitter.com/jgehl99',
+            github: 'https://github.com/jgehl99',
+            linkedin: 'https://www.linkedin.com/in/joshua-gehl-b00513171/'
           }
         }
       ]
