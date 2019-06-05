@@ -39,6 +39,7 @@
   import don from '../static/don.png'
   import ali from '../static/ali.png'
   import joshua from '../static/joshua.png'
+  import austin from '../static/austin.jpg'
 
   export default {
     data: () => ({
@@ -85,6 +86,16 @@
             twitter: 'https://twitter.com/jgehl99',
             github: 'https://github.com/jgehl99',
             linkedin: 'https://www.linkedin.com/in/joshua-gehl-b00513171/'
+          }
+        },
+        {
+          name: 'Austin Formagin',
+          image: austin,
+          description: 'Austin Formagin is an undergraduate Computer Science student at the University of Windsor. Austin currently mentors a group of students on an FRC team in Chatham, Ontario, teaching the students the basics of programming competition robots. He looks forward to introducing the importance of STEM to his community.',
+          socials: {
+            github: 'https://github.com/auti117',
+            linkedin: 'https://www.linkedin.com/in/austin-formagin-551b50171/',
+            twitter: 'https://twitter.com/AustinFormagin'
           }
         }
       ]
