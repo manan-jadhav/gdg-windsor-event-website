@@ -35,6 +35,7 @@
 </template>
 <script>
   import uofw from '../static/uofw.png'
+  import coulter from '../static/coulter_software.jpg'
 
 export default {
     data: () => ({
@@ -48,6 +49,17 @@ export default {
             twitter: 'https://twitter.com/uwindsor',
             // github: 'https://github.com/donwardpeng',
             linkedin: 'https://www.linkedin.com/groups/38761'
+          }
+        },
+        {
+          name: 'Coulter Software',
+          image: coulter,
+          description: 'We build great software.\n We are a specialized team that provides common sense solutions to our customers problems. \nWe are experienced in designing and building web and mobile apps to help bring your business to the next level!\nContact us at: info@coulters.ca',
+          socials: {
+            // facebook: 'https://www.facebook.com/UWindsor/',
+            // twitter: 'https://twitter.com/uwindsor',
+            // // github: 'https://github.com/donwardpeng',
+            // linkedin: 'https://www.linkedin.com/groups/38761'
           }
         },
       ]
