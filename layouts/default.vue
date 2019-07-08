@@ -131,10 +131,10 @@ export default {
         //   title: 'Schedule',
         //   to: '/schedule'
         // },
-        // {
-        //   title: 'Speakers',
-        //   to: '/speakers'
-        // },
+        {
+          title: 'Speakers',
+          to: '/speakers'
+        },
         // {
         //   title: 'Register',
         //   to: '/tickets'
