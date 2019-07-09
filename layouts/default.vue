@@ -131,10 +131,10 @@ export default {
         //   title: 'Schedule',
         //   to: '/schedule'
         // },
-        // {
-        //   title: 'Speakers',
-        //   to: '/speakers'
-        // },
+        {
+          title: 'Speakers',
+          to: '/speakers'
+        },
         // {
         //   title: 'Register',
         //   to: '/tickets'
@@ -146,6 +146,10 @@ export default {
         {
           title: 'Sponsors',
           href: '/sponsors'
+        },
+        {
+          title: 'Code of Conduct',
+          href: '/codeofconduct'
         },
         {
           title: 'Call For Papers',
