@@ -148,6 +148,10 @@ export default {
           href: '/sponsors'
         },
         {
+          title: 'Code of Conduct',
+          href: '/codeofconduct'
+        },
+        {
           title: 'Call For Papers',
           href: 'https://www.papercall.io/wedevfest2019'
         }
