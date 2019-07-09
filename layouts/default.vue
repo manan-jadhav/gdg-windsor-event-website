@@ -140,13 +140,14 @@ export default {
         //   to: '/tickets'
         // }
         {
-          title: 'Team',
-          to: '/team'
-        },
-        {
           title: 'Sponsors',
           href: '/sponsors'
         },
+        {
+          title: 'Team',
+          to: '/team'
+        },
+        
         {
           title: 'Code of Conduct',
           href: '/codeofconduct'
