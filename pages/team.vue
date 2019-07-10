@@ -35,12 +35,12 @@
 </template>
 
 <script>
-  import manan from '../static/manan.jpg'
-  import don from '../static/don.png'
-  import ali from '../static/ali.png'
-  import joshua from '../static/joshua.png'
-  import austin from '../static/austin.jpg'
-
+  import manan from '../static/team/manan.jpg'
+  import don from '../static/team/don.png'
+  import ali from '../static/team/ali.png'
+  import joshua from '../static/team/joshua.png'
+  import austin from '../static/team/austin.jpg'
+  import ron from '../static/team/ron_mckenzie.png'
   export default {
     data: () => ({
       speakers: [
@@ -75,6 +75,17 @@
             twitter: 'https://twitter.com/curosmj',
             github: 'https://github.com/curosmj',
             linkedin: 'https://www.linkedin.com/in/curosmj/'
+          }
+        },
+        {
+          name: 'Ron McKenzie',
+          image: ron,
+          description: 'Ron McKenzie has been teaching Computer Science for 24 years, the last 16 of which have been at Vincent Massey. He enjoys creating and supporting groups and communities including Toastmasters, Debate, Computer Club, CodeReach, MasseyHacks, and ANS/CCP.',
+          socials: {
+            facebook: 'https://www.facebook.com/ron.mckenzie.397',
+            // twitter: 'https://twitter.com/jgehl99',
+            github: 'https://github.com/mss-mckenzie',
+            linkedin: 'https://ca.linkedin.com/in/ron-mckenzie-13357744'
           }
         },
         {
