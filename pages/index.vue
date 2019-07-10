@@ -26,11 +26,16 @@
       </v-card>
     </v-flex>
     <v-flex xs12 md12>
-      <v-card color=yellow>
-        <v-card-title class="headline">We are currently looking for speakers - click on the 'Call for Papers' button to apply to speak.</v-card-title>
-      </v-card>
+      <v-alert :value="true" show type="info" color="blue">
+        We are currently looking for speakers - click on the 'Call for Papers' button to apply to speak.
+      </v-alert>
     </v-flex>
-    <v-flex xs12 md12>
+    <v-flex xs12 md7 pa-2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T0z0mIGbn2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </v-flex>
+    <v-flex xs12 md5>
       <v-card>
         <v-card-title class="headline">What is the Windsor-Essex DevFest? </v-card-title>
         <v-card-text>
@@ -70,6 +75,21 @@
 <style scoped>
 .v-card {
   height: 100%;
+}
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 </style>
 
