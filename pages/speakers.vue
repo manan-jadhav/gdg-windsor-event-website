@@ -34,6 +34,10 @@
 <script>
   import amirfeizpour from '../static/speakers/amir_feizpour.jpeg'
   import sumitchandel from '../static/speakers/sumit_chandel.jpeg'
+  import markkrysta from '../static/speakers/mark_kryska.jpg'
+  import alielsharif from '../static/team/ali.png'
+  import donward from '../static/team/don.png'
+
 
   export default {
     data: () => ({
@@ -49,7 +53,6 @@
             // github: 'https://github.com',
             linkedin: 'https://www.linkedin.com/in/amirfzpr/'
           },
-          headerMessage:'Keynote Speaker!'
         },
         {
           name: 'Sumit Chandel',
@@ -60,18 +63,43 @@
             linkedin: 'https://www.linkedin.com/in/sumit-chandel-a273792/',
             twitter: 'https://twitter.com/s_chande',
           },
-          headerMessage:' '
         },
-        // {
-        //   name: 'John Doe',
-        //   image: manan,
-        //   description: 'Godfrey Nolan is founder and president of RIIS LLC, a mobile development firm in Troy. He is also author of "Agile Android", "Bulletproof Android", "Android Best Practices", "Decompiling Android" and "Decompiling Java." Godfrey has spoken at DroidCon, AnDevcon as well as JavaOne, ASP-Connections, VSLive, Codemash, Code PaLOUsa, 1DevDay and many local Java and .Net user groups on a wide range of topics such as Continuous Integration, Unit Testing and mobile security.",',
-        //   socials: {
-        //     facebook: 'https://facebook.com',
-        //     twitter: 'https://twitter.com',
-        //     github: 'https://github.com'
-        //   }
-        // }
+        {
+          name: 'Mark Kryska',
+          title: 'VP of Technology, Atlas Oil',
+          image: markkrysta,
+          description: 'Mark Kryska is the Vice President Of Technology at Atlas Oil. He is an innovative and competent leader with a track record of meeting deadlines on high-impact projects that enhance performance, add value, effect change, drive profits and growth for diverse companies and organizations. His focus includes setting the IT strategy for a company that leads innovation in the Oil & Energy industry, Digital Transformation, and aligning IT to support business needs. Prior to his time at Atlas Oil he spent five years at Kelly Services, Inc where he was the Senior Director of Product Management & Strategy, and eight years working at Ernst & Young, LLP where he was a Manager in their Enterprise Intelligence practice. His relationship with innovation is driven by a love of mathematics and technology solutions. He received his undergraduate from University of Michigan in Computer Information Sciences and is currently enrolled in their MBA program. He currently resides in the Detroit Metro area with his wife and two children.',
+          socials: {
+            // facebook: 'https://facebook.com',
+            // twitter: 'https://twitter.com',
+            // github: 'https://github.com'
+            linkedin: 'https://www.linkedin.com/in/markkryska/'
+          },
+        },
+          {
+          name: 'Ali El-Sharif',
+          title: 'Business Intelligence Consultant at Motifworks',
+          image: alielsharif,
+          description: 'Ali El-Sharif lives in Windsor and works as a Business Intelligence Consultant for Motifworks in metro Detroit.  Ali is a Ph.D. candidate at Nova Southeastern University, conducting research in Machine Learning interpretability.',
+          socials: {
+            facebook: 'https://facebook.com/ali.elsharif.969',
+            twitter: 'https://twitter.com/elsharifali',
+            github: 'https://github.com/elsharifali',
+            linkedin: 'https://www.linkedin.com/in/elsharifali'
+          }
+        },
+          {
+          name: 'Don Ward',
+          title: 'Senior Research Engineer at Quicken Loans',
+          image: donward,
+          description: 'Don Ward is a Senior Research Engineer at Quicken Loans, the nation\'s largest mortgage lender, which is based in Detroit, Michigan. As the previous Director of Mobile Development at Quicken Loans, he has been building mobile apps for the past 10 years. He leads the local chapters of the Google Developers Group in Detroit and Windsor, Canada. Always up for a good challenge, Don entered and won a 24-hour hackathon leveraging the power of wearables such as the Apple Watch. Recently, Don purchased an oversized boat and has been honing his captain skills on the Detroit River and Great Lakes. As an avid lover of all things Android, he\'s waiting on the boating industry to release an excellent Android chart plotter so he can write apps for his boat. To stay up-to-date with Don, follow him on Twitter at @donwardpeng.',
+          socials: {
+           facebook: 'https://www.facebook.com/don.ward.395',
+            twitter: 'https://twitter.com/donwardpeng',
+            github: 'https://github.com/donwardpeng',
+            linkedin: 'https://www.linkedin.com/in/donwardpeng/'
+          }
+        },
       ]
     })
   }
