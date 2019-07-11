@@ -37,6 +37,8 @@
   import markkrysta from '../static/speakers/mark_kryska.jpg'
   import alielsharif from '../static/team/ali.png'
   import donward from '../static/team/don.png'
+  import godfreynolan from '../static/speakers/godfrey_nolan.jpg'
+  
 
 
   export default {
@@ -75,6 +77,18 @@
             // github: 'https://github.com'
             linkedin: 'https://www.linkedin.com/in/markkryska/'
           },
+        },
+        {
+          name: 'Godfrey Nolan',
+          title: 'Founder and President of RIIS LLC',
+          image: godfreynolan,
+          description: 'Godfrey Nolan is founder and president of RIIS LLC, a mobile development firm in Troy. He is also the author of "Agile Android", "Bulletproof Android", "Android Best Practices", "Decompiling Android" and "Decompiling Java." Godfrey has spoken at DroidCon, AnDevcon as well as JavaOne, ASP-Connections, VSLive, Codemash, Code PaLOUsa, 1DevDay and many local Java and .Net user groups on a wide range of topics such as Continuous Integration, Unit Testing and mobile security.',
+          socials: {
+            // facebook: 'https://facebook.com/ali.elsharif.969',
+            twitter: 'https://twitter.com/godfreynolan',
+            // github: 'https://github.com/elsharifali',
+            linkedin: 'https://www.linkedin.com/in/godfrey-nolan'
+          }
         },
           {
           name: 'Ali El-Sharif',
