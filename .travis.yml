@@ -4,6 +4,7 @@ node_js:
 script:
   - "npm run generate"
 deploy:
+  skip_cleanup: true
   provider: firebase
   on:
     branch: release
