@@ -38,6 +38,7 @@
   import alielsharif from '../static/team/ali.png'
   import donward from '../static/team/don.png'
   import godfreynolan from '../static/speakers/godfrey_nolan.jpg'
+  import garyocoburn from '../static/speakers/gary_coburn.jpeg'
   
 
 
@@ -64,6 +65,16 @@
           socials: {
             linkedin: 'https://www.linkedin.com/in/sumit-chandel-a273792/',
             twitter: 'https://twitter.com/s_chande',
+          },
+        },
+        {
+          name: 'Gary Coburn',
+          title: 'Google Cloud Customer Engineer',
+          image: garyocoburn,
+          description: 'Gary is a Cloud Customer Engineer within Google\'s Customer Engineering group. In the past he has been purely infrastructure focused, architecting the entire storage and virtualization environment for a global manufacturing company through custom Dev/Ops and application development. He now spends time working in West Michigan to enable enterprise customers to utilize all of the great technology that Google has.',
+          socials: {
+            linkedin: 'https://www.linkedin.com/in/garyocoburn/',
+            twitter: 'https://twitter.com/coburngary',
           },
         },
         {
