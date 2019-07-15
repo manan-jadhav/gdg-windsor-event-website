@@ -39,8 +39,7 @@
   import donward from '../static/team/don.png'
   import godfreynolan from '../static/speakers/godfrey_nolan.jpg'
   import garyocoburn from '../static/speakers/gary_coburn.jpeg'
-  
-
+  import guaravkumarsingh from '../static/speakers/gaurav_kumar_singh.jpg'
 
   export default {
     data: () => ({
@@ -99,6 +98,18 @@
             twitter: 'https://twitter.com/godfreynolan',
             // github: 'https://github.com/elsharifali',
             linkedin: 'https://www.linkedin.com/in/godfrey-nolan'
+          }
+        },
+        {
+          name: 'Gaurav Kumar Singh',
+          title: 'AV Research and Strategy, Ford Motor Company',
+          image: guaravkumarsingh,
+          description: 'Gaurav brings expertise on emerging technologies like artificial intelligence and data science. He also dabbles in technical strategy and planning of autonomous vehicles (AV). Through speaking and panel gigs, he has shared platforms with prominent researchers and stakeholders of (AV) technology and expanded his network.',
+          socials: {
+            // facebook: 'https://facebook.com/ali.elsharif.969',
+            // twitter: 'https://twitter.com/godfreynolan',
+            // github: 'https://github.com/elsharifali',
+            linkedin: 'https://www.linkedin.com/in/gauravgks/'
           }
         },
           {
