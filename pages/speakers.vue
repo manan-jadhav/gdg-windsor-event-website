@@ -40,6 +40,7 @@
   import godfreynolan from '../static/speakers/godfrey_nolan.jpg'
   import garyocoburn from '../static/speakers/gary_coburn.jpeg'
   import guaravkumarsingh from '../static/speakers/gaurav_kumar_singh.jpg'
+  import jeanettewashington from '../static/speakers/jeannette_washington.jpg'
 
   export default {
     data: () => ({
@@ -87,6 +88,18 @@
             // github: 'https://github.com'
             linkedin: 'https://www.linkedin.com/in/markkryska/'
           },
+        },
+        {
+          name: 'Jeannette Washington',
+          title: 'Founder of Bearly Articulating',
+          image: jeanettewashington,
+          description: 'I\'m Jeannette Washington, M.Ed. I worked as a Speech Pathologist for a number of years before attending a coding bootcamp and transcending into a role with Microsoft teaching high school girls to code. My passion for exceptional learners has helped me ignite conversations across multiple dimensions of diversity in the tech industry. I currently teach introductory coding courses at Grand Circus Detroit and I\m pioneering a company called Bearly Articulating, a concierge style, equity, diversity and inclusivity (D&I) think tank.',
+          socials: {
+            // facebook: 'https://facebook.com/ali.elsharif.969',
+            twitter: 'https://twitter.com/BearlyArtic',
+            // github: 'https://github.com/elsharifali',
+            linkedin: 'https://www.linkedin.com/in/jlrwashington/'
+          }
         },
         {
           name: 'Godfrey Nolan',
