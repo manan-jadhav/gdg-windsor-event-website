@@ -39,8 +39,8 @@
   import donward from '../static/team/don.png'
   import godfreynolan from '../static/speakers/godfrey_nolan.jpg'
   import garyocoburn from '../static/speakers/gary_coburn.jpeg'
-  
-
+  import guaravkumarsingh from '../static/speakers/gaurav_kumar_singh.jpg'
+  import jeanettewashington from '../static/speakers/jeannette_washington.jpg'
 
   export default {
     data: () => ({
@@ -90,6 +90,18 @@
           },
         },
         {
+          name: 'Jeannette Washington',
+          title: 'Founder of Bearly Articulating',
+          image: jeanettewashington,
+          description: 'I\'m Jeannette Washington, M.Ed. I worked as a Speech Pathologist for a number of years before attending a coding bootcamp and transcending into a role with Microsoft teaching high school girls to code. My passion for exceptional learners has helped me ignite conversations across multiple dimensions of diversity in the tech industry. I currently teach introductory coding courses at Grand Circus Detroit and I\m pioneering a company called Bearly Articulating, a concierge style, equity, diversity and inclusivity (D&I) think tank.',
+          socials: {
+            // facebook: 'https://facebook.com/ali.elsharif.969',
+            twitter: 'https://twitter.com/BearlyArtic',
+            // github: 'https://github.com/elsharifali',
+            linkedin: 'https://www.linkedin.com/in/jlrwashington/'
+          }
+        },
+        {
           name: 'Godfrey Nolan',
           title: 'Founder and President of RIIS LLC',
           image: godfreynolan,
@@ -99,6 +111,18 @@
             twitter: 'https://twitter.com/godfreynolan',
             // github: 'https://github.com/elsharifali',
             linkedin: 'https://www.linkedin.com/in/godfrey-nolan'
+          }
+        },
+        {
+          name: 'Gaurav Kumar Singh',
+          title: 'AV Research and Strategy, Ford Motor Company',
+          image: guaravkumarsingh,
+          description: 'Gaurav brings expertise on emerging technologies like artificial intelligence and data science. He also dabbles in technical strategy and planning of autonomous vehicles (AV). Through speaking and panel gigs, he has shared platforms with prominent researchers and stakeholders of (AV) technology and expanded his network.',
+          socials: {
+            // facebook: 'https://facebook.com/ali.elsharif.969',
+            // twitter: 'https://twitter.com/godfreynolan',
+            // github: 'https://github.com/elsharifali',
+            linkedin: 'https://www.linkedin.com/in/gauravgks/'
           }
         },
           {
