@@ -1,20 +1,6 @@
 language: node_js
 node_js:
   - "10"
-script:
-  - "npm run generate"
-deploy:
-  - skip_cleanup: true
-    provider: firebase
-    project: gdg-windsor-devfest-2019-prod
-    on:
-      branch: release
-    token:
-      secure: EVeLPTb+GbS6uAaOYvibbVuE98IwBwxzDZ9LY8H6h80BK9H/+0KjPD/wUMntmg0Y4xv9t+60K98LnoqxOhxr9BqbhWta5CWo+ZGC11mwbekf3GmZI9yu7cG6TfvXadqP3omH4aN8L+uGRQtTqSuvwk0LJYELyD4O+bduVke44JLQQf6gbMIC0n5Ug5/vjgVUW6wUKAw/7UMPguJ/uplzzcnzvDOo5e+qoAZYOVv+WaEWQc1EuiZdgIkvShY2gTxywWdIAqxM9zJjRKCNi7Rg9hEGSDbxdrnw+QIBJRw0yTwMJ1vOIBfMAoJMH4tMX/gXYABSv8eCk9la1g+m9GNYZBH/7WlkAzoEwyfFf2Kqip6R3z/MlHBAz2B2h+K5qy1mk2jDXB0lvK8csBW/iTRFDYcf8T9n7Qtt9k09y/p3/20QxsC32d5ckHWgc7rpTEhYaEPsatqDAstbWE6UGxKmQu1OYN2Jz4k4lxFZ2TNjF57Q+0s7Ac1SV6OB+JfJ5kVUYBrR5tF9nUzgnxsrp8aUWSjAzBxzCw60xp+24lmtylPJLVCDlB+T/esiVOX3n57BuWzp45+XaZ+UDKa0rp2a8N67k/SGgIVU2LaD8fsVCAmTKbcCtvGOztwfdsC5id/SeGdGwdJkBGi1Nuk8HctwvuEuddM2RdJvQTEMMeXqKKc=
-  - skip_cleanup: true
-    provider: firebase
-    project: gdg-windsor-devfest-2019-test
-    on:
-      branch: master
-    token:
-      secure: EVeLPTb+GbS6uAaOYvibbVuE98IwBwxzDZ9LY8H6h80BK9H/+0KjPD/wUMntmg0Y4xv9t+60K98LnoqxOhxr9BqbhWta5CWo+ZGC11mwbekf3GmZI9yu7cG6TfvXadqP3omH4aN8L+uGRQtTqSuvwk0LJYELyD4O+bduVke44JLQQf6gbMIC0n5Ug5/vjgVUW6wUKAw/7UMPguJ/uplzzcnzvDOo5e+qoAZYOVv+WaEWQc1EuiZdgIkvShY2gTxywWdIAqxM9zJjRKCNi7Rg9hEGSDbxdrnw+QIBJRw0yTwMJ1vOIBfMAoJMH4tMX/gXYABSv8eCk9la1g+m9GNYZBH/7WlkAzoEwyfFf2Kqip6R3z/MlHBAz2B2h+K5qy1mk2jDXB0lvK8csBW/iTRFDYcf8T9n7Qtt9k09y/p3/20QxsC32d5ckHWgc7rpTEhYaEPsatqDAstbWE6UGxKmQu1OYN2Jz4k4lxFZ2TNjF57Q+0s7Ac1SV6OB+JfJ5kVUYBrR5tF9nUzgnxsrp8aUWSjAzBxzCw60xp+24lmtylPJLVCDlB+T/esiVOX3n57BuWzp45+XaZ+UDKa0rp2a8N67k/SGgIVU2LaD8fsVCAmTKbcCtvGOztwfdsC5id/SeGdGwdJkBGi1Nuk8HctwvuEuddM2RdJvQTEMMeXqKKc=
+before_script: npm install firebase-tools -g
+script: npm run generate
+after_success: ./deploy.sh $TRAVIS_BRANCH $TRAVIS_PULL_REQUEST $FIREBASE_TOKEN
