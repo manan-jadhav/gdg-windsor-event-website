@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "gdg-windsor-devfest-2019-test"
+  },
+  "targets": {
+    "gdg-windsor-devfest-2019-test": {
+      "hosting": {
+        "prod": [
+          "gdg-windsor-devfest-2019-prod"
+        ],
+        "test": [
+          "gdg-windsor-devfest-2019-test"
+        ]
+      }
+    }
   }
 }
