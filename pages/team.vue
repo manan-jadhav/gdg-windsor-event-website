@@ -5,18 +5,24 @@
 
     <v-container grid-list-md >
       <v-layout row wrap>
-        <v-flex xs6 md3 v-for="(speaker, i) in speakers" :key="i">
-          <v-card>
-            <v-img 
-            height="250px"
-            :src="speaker.image">
-            </v-img>
-            <v-card-title class="headline">
-              {{speaker.name}}
-            </v-card-title>
-            <v-card-text>
-              <p class="body-1">{{speaker.description}}</p>
-            </v-card-text>
+        <v-flex xs6 v-for="(speaker, i) in speakers" :key="i">
+          <v-card class="mb-4">
+            <v-layout>
+                <v-flex xs4>
+                  <v-img 
+                    contain
+                    :src="speaker.image">
+                    </v-img>
+                </v-flex>
+                <v-flex xs8>
+                  <v-card-title class="headline">
+                    {{speaker.name}}
+                  </v-card-title>
+                  <v-card-text>
+                    <p class="body-1">{{speaker.description}}</p>
+                  </v-card-text>
+                </v-flex>
+            </v-layout>
             <v-card-actions>
               <v-btn
                 v-for="(link, platform) in speaker.socials"
