@@ -7,25 +7,22 @@
         <v-flex xs12 md12 v-for="(speaker, i) in speakers" :key="i">
           <v-card class="mb-4">
             <v-layout>
-                <v-flex xs3>
-                  <v-img
-                    :src="speaker.image"
-                    contain
-                  ></v-img>
-                </v-flex>
-                <v-flex xs9>
-                  <v-card-text>
-                    <p class="display-1">
-                      <span v-html="speaker.name"></span>
-                    </p>
-                    <p class="title">
-                      <span v-html="speaker.title"></span>
-                    </p>
-                    <p class="body-1">
-                      <span v-html="speaker.description"></span>
-                    </p>
-                  </v-card-text>
-                </v-flex>
+              <v-flex xs3>
+                <v-img :src="speaker.image" contain></v-img>
+              </v-flex>
+              <v-flex xs9>
+                <v-card-text>
+                  <p class="display-1">
+                    <span v-html="speaker.name"></span>
+                  </p>
+                  <p class="title">
+                    <span v-html="speaker.title"></span>
+                  </p>
+                  <p class="body-1">
+                    <span v-html="speaker.description"></span>
+                  </p>
+                </v-card-text>
+              </v-flex>
             </v-layout>
             <v-divider light></v-divider>
             <v-card-actions class="pa-3">
@@ -57,6 +54,7 @@ import garyocoburn from "../static/speakers/gary_coburn.jpeg";
 import guaravkumarsingh from "../static/speakers/gaurav_kumar_singh.jpg";
 import jeanettewashington from "../static/speakers/jeannette_washington.jpg";
 import harishbhaskar from "../static/speakers/harish_bhaskar.jpg";
+import kylepaul from "../static/speakers/kylepaul.jpg";
 
 export default {
   data: () => ({
@@ -75,17 +73,6 @@ export default {
         }
       },
       {
-        name: "Sumit Chandel",
-        title: "Sr Developer Advocate at Google",
-        image: sumitchandel,
-        description:
-          "Sumit Chandel works as a senior developer advocate on Firebase, focusing on developer outreach both digitally and in-person by presenting at conferences and meetups globally. <p><p>Previously, Sumit managed the AdWords API advocacy team, worked on Android Wear and Instant Apps, and was a developer programs engineer on the Google Web Toolkit. Prior to joining Google, Sumit was a software engineer at Motorola, Optimal Payments and Westfield Insurance Group.",
-        socials: {
-          linkedin: "https://www.linkedin.com/in/sumit-chandel-a273792/",
-          twitter: "https://twitter.com/s_chande"
-        }
-      },
-      {
         name: "Harish Bhaskar",
         title:
           "President and Chief Consultant of Zero One Infinity Consulting (ZOIC) Services Ltd",
@@ -96,7 +83,6 @@ export default {
           linkedin: "https://www.linkedin.com/in/harishbhasky/"
         }
       },
-
       {
         name: "Gary Coburn",
         title: "Google Cloud Customer Engineer",
@@ -106,6 +92,17 @@ export default {
         socials: {
           linkedin: "https://www.linkedin.com/in/garyocoburn/",
           twitter: "https://twitter.com/coburngary"
+        }
+      },
+      {
+        name: "Sumit Chandel",
+        title: "Sr Developer Advocate at Google",
+        image: sumitchandel,
+        description:
+          "Sumit Chandel works as a senior developer advocate on Firebase, focusing on developer outreach both digitally and in-person by presenting at conferences and meetups globally. <p><p>Previously, Sumit managed the AdWords API advocacy team, worked on Android Wear and Instant Apps, and was a developer programs engineer on the Google Web Toolkit. Prior to joining Google, Sumit was a software engineer at Motorola, Optimal Payments and Westfield Insurance Group.",
+        socials: {
+          linkedin: "https://www.linkedin.com/in/sumit-chandel-a273792/",
+          twitter: "https://twitter.com/s_chande"
         }
       },
       {
@@ -134,19 +131,7 @@ export default {
           linkedin: "https://www.linkedin.com/in/markkryska/"
         }
       },
-      {
-        name: "Gaurav Kumar Singh",
-        title: "AV Research and Strategy, Ford Motor Company",
-        image: guaravkumarsingh,
-        description:
-          "Gaurav brings expertise on emerging technologies like artificial intelligence and data science. He also dabbles in technical strategy and planning of autonomous vehicles (AV). Through speaking and panel gigs, he has shared platforms with prominent researchers and stakeholders of (AV) technology and expanded his network.",
-        socials: {
-          // facebook: 'https://facebook.com/ali.elsharif.969',
-          // twitter: 'https://twitter.com/godfreynolan',
-          // github: 'https://github.com/elsharifali',
-          linkedin: "https://www.linkedin.com/in/gauravgks/"
-        }
-      },
+
       {
         name: "Godfrey Nolan",
         title: "Founder and President of RIIS LLC",
@@ -160,7 +145,32 @@ export default {
           linkedin: "https://www.linkedin.com/in/godfrey-nolan"
         }
       },
-
+      {
+        name: "Kyle Paul",
+        title: "Program Manager of Developer Ecosystems, Google",
+        image: kylepaul,
+        description:
+          'Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).',
+        socials: {
+          // facebook: 'https://facebook.com/ali.elsharif.969',
+          twitter: "https://twitter.com/_kylepaul",
+          // github: 'https://github.com/elsharifali',
+          linkedin: "https://www.linkedin.com/in/kylepaul/"
+        }
+      },
+      {
+        name: "Gaurav Kumar Singh",
+        title: "AV Research and Strategy, Ford Motor Company",
+        image: guaravkumarsingh,
+        description:
+          "Gaurav brings expertise on emerging technologies like artificial intelligence and data science. He also dabbles in technical strategy and planning of autonomous vehicles (AV). Through speaking and panel gigs, he has shared platforms with prominent researchers and stakeholders of (AV) technology and expanded his network.",
+        socials: {
+          // facebook: 'https://facebook.com/ali.elsharif.969',
+          // twitter: 'https://twitter.com/godfreynolan',
+          // github: 'https://github.com/elsharifali',
+          linkedin: "https://www.linkedin.com/in/gauravgks/"
+        }
+      },
       {
         name: "Jeannette Washington",
         title: "Founder of Bearly Articulating",
