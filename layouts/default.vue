@@ -153,8 +153,8 @@ export default {
           href: '/codeofconduct'
         },
         {
-          title: 'Call For Papers',
-          href: 'https://www.papercall.io/wedevfest2019'
+          title: 'Register Now!',
+          href: 'https://www.eventbrite.com/e/windsor-essex-devfest-tickets-5488751002'
         }
       ],
       title: 'GDG Windsor-Essex DevFest 2019',
