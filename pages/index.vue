@@ -25,11 +25,6 @@
         </v-card-actions>
       </v-card>
     </v-flex>
-    <v-flex xs12 md12>
-      <v-alert :value="true" show type="info" color="blue">
-        We are currently looking for speakers - click on the 'Call for Papers' button to apply to speak.
-      </v-alert>
-    </v-flex>
     <v-flex xs12 md7 pa-2>
       <div class="video-container">
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T0z0mIGbn2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -50,7 +45,7 @@
         <v-card-title class="headline">What can you expect at the Windsor-Essex DevFest? </v-card-title>
         <v-card-text>
           <p>
-            A day full of great talks on some of the latest Google technology out there with great opportunities to network within the local tech community. Breakfast and lunch will be provided as well as a end of day prize raffle of some cool technology. We will be charging a small fee of $10 to help offset the cost of the conference (thanks to our sponsors for helping to cover the rest of the costs :).
+            A day full of great talks on some of the latest Google technology out there with great opportunities to network within the local tech community. Breakfast and lunch will be provided as well as a end of day prize raffle of some cool technology. We will be charging a small fee to help offset the cost of the conference (thanks to our sponsors for helping to cover the rest of the costs :).
           </p>
         </v-card-text>
       </v-card>
@@ -63,7 +58,7 @@
             Some of the coolest development technologies out there including Flutter, Android, TensorFlow, and Google Cloud Platform (GCP). 
           </p>
           <p>
-            Head over to the Speakers & Sessions page for more details. We are currently looking for speakers - click on the Call for Papers button above if you are interested in speaking!
+            Head over to the Speakers page for more details.
           </p>
         </v-card-text>
       </v-card>
