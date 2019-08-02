@@ -35,7 +35,7 @@
         <v-card-title class="headline">What is the Windsor-Essex DevFest? </v-card-title>
         <v-card-text>
           <p>
-            The Windsor Google Developers Group (GDG) is proud to host our second Windsor-Essex DevFest on Saturday, Oct 5, 2019 at the University of Windsor Odette Building. DevFests are Google sponsored software developer conferences that allow the local software development community to come together to network and learn about the coolest new technology out there.
+            The Windsor Google Developers Group (GDG) is proud to host our second Windsor-Essex DevFest on Saturday, Oct 5, 2019 with the School of Computer Science at the University of Windsor Odette Building. DevFests are Google sponsored software developer conferences that allow the local software development community to come together to network and learn about the coolest new technology out there.
           </p>
         </v-card-text>
       </v-card>
