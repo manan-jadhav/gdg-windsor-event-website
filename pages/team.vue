@@ -1,11 +1,11 @@
 <template>
   <v-layout column>
     <h1 class="display-2 mb-2">Team</h1>
-    <p class="mb-10"></p>
+    
 
     <v-container grid-list-md >
       <v-layout row wrap>
-        <v-flex xs6 v-for="(speaker, i) in speakers" :key="i">
+        <v-flex xs12 md12 v-for="(speaker, i) in speakers" :key="i">
           <v-card class="mb-4">
             <v-layout>
                 <v-flex xs4>
@@ -14,7 +14,7 @@
                     :src="speaker.image">
                     </v-img>
                 </v-flex>
-                <v-flex xs8>
+                <v-flex xs9>
                   <v-card-title class="headline">
                     {{speaker.name}}
                   </v-card-title>
