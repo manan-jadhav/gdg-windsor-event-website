@@ -3,7 +3,7 @@
     <v-navigation-drawer
       v-model="drawer"
       temporary
-      fixed
+    fixed
     >
       <v-list>
         <v-list-tile
@@ -26,6 +26,7 @@
       app
       absolute
       dark
+      collapse
       color="primary"
     >
       <v-toolbar-title>
