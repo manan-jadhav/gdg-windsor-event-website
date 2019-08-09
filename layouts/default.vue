@@ -38,13 +38,6 @@
       </v-toolbar-items>
 
       <v-menu  class="hidden-md-and-up"> 
-        <!-- <template v-slot:activator="{ on }">
-          <v-btn icon v-on="on" class="hidden-md-and-up">
-            <v-icon>more_vert</v-icon>
-          </v-btn>
-        </template>
-        //used this as a template for the menu -> https://codepen.io/kematzy/pen/oMgrjE
- -->
         <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
         <v-list>
           <v-list-tile
