@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer
+    <!-- <v-navigation-drawer
       v-model="drawer"
       temporary
     fixed
@@ -21,36 +21,39 @@
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
     <v-toolbar
+    
       app
       absolute
       dark
-      collapse
       color="primary"
     >
       <v-toolbar-title>
           <router-link to="/" class="toolbar-title">{{title}}</router-link>
       </v-toolbar-title>
       <v-spacer />
-      <v-toolbar-items >
+      <v-toolbar-items class="hidden-sm-and-down" >
         <v-btn v-for="item in items" :key="item.title" :href="item.href" :to="item.to" flat>{{item.title}}</v-btn>
       </v-toolbar-items>
 
-      <v-menu :nudge-width="100">
-        <template v-slot:activator="{ on }">
+      <v-menu  class="hidden-md-and-up"> 
+        <!-- <template v-slot:activator="{ on }">
           <v-btn icon v-on="on" class="hidden-md-and-up">
             <v-icon>more_vert</v-icon>
           </v-btn>
         </template>
-
+        //used this as a template for the menu -> https://codepen.io/kematzy/pen/oMgrjE
+ -->
+        <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
         <v-list>
           <v-list-tile
             v-for="item in items"
             :key="item.title"
+            :href="item.href"
             :to="item.to"
           >
-            <v-list-tile-title v-text="item.title"></v-list-tile-title>
+            <v-list-tile-title> {{ item.title }}</v-list-tile-title>
           </v-list-tile>
         </v-list>
       </v-menu>
