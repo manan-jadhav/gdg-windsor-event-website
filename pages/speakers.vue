@@ -56,6 +56,7 @@ import jeanettewashington from "../static/speakers/jeannette_washington.jpg";
 import harishbhaskar from "../static/speakers/harish_bhaskar.jpg";
 import kylepaul from "../static/speakers/kylepaul.jpg";
 import lizmerritt from "../static/speakers/liz_merritt.jpeg";
+import kartikkuber from "../static/speakers/karthik_kuber.jpeg";
 
 export default {
   data: () => ({
@@ -132,7 +133,19 @@ export default {
           linkedin: "https://www.linkedin.com/in/markkryska/"
         }
       },
-
+      {
+        name: "Karthik Kuber",
+        title: "Director of AI/ML, Loblaw Companies Limited",
+        image: kartikkuber,
+        description:
+          "Karthik Kuber is a Director of AI/ML at Loblaw Companies Limited and an adjunct instructor of Machine Learning at York University in Toronto. He has several years of academic research as well as applied data science experience primarily in the technology and banking sectors. His current interests are in exploring and applying various ML techniques in the context of large-scale engineering systems with a special emphasis on interpretability. Previously, he was at RBC in Toronto, at Microsoft in Redmond WA, and had received his PhD in 2014 from Syracuse University in Computer Science focusing on Evolutionary Computation. He is also an instructor and university ambassador for NVIDIA's Deep Learning Institute, has co-organised three editions of the International Workshop on Evolutionary Rule-based ML, and volunteers actively with DataKind on projects applying Data Science for social causes.",
+        socials: {
+          // facebook: 'https://facebook.com',
+          // twitter: 'https://twitter.com',
+          // github: 'https://github.com'
+          linkedin: "https://www.linkedin.com/in/karthikkuber/"
+        }
+      },
       {
         name: "Godfrey Nolan",
         title: "Founder and President of RIIS LLC",
