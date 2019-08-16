@@ -57,6 +57,7 @@ import harishbhaskar from "../static/speakers/harish_bhaskar.jpg";
 import kylepaul from "../static/speakers/kylepaul.jpg";
 import lizmerritt from "../static/speakers/liz_merritt.jpeg";
 import kartikkuber from "../static/speakers/karthik_kuber.jpeg";
+import annielee from "../static/speakers/annie_lee.jpeg";
 
 export default {
   data: () => ({
@@ -147,6 +148,19 @@ export default {
         }
       },
       {
+        name: "Annie Lee",
+        title: "Research Scientist at Stradigi AI",
+        image: annielee,
+        description:
+          'Annie Lee is a researcher with a passion in finding patterns in society and in nature. She has over 10 years of experience in the area of the machine learning and pattern recognition (academic and industry combined). More notably, Dr. Lee developed unsupervised algorithms using patterns applied to both biological sequences and user-generated text. Her work in the big data era has lead to dozens of publications in computational advertising, sentiment analysis, and sequence analysis.',
+        socials: {
+          // facebook: 'https://facebook.com/ali.elsharif.969',
+          // twitter: "https://twitter.com/godfreynolan",
+          // github: 'https://github.com/elsharifali',
+          linkedin: "https://www.linkedin.com/in/drannielee/"
+        }
+      },
+      {
         name: "Godfrey Nolan",
         title: "Founder and President of RIIS LLC",
         image: godfreynolan,
@@ -164,7 +178,7 @@ export default {
         title: "Program Manager of Developer Ecosystems, Google",
         image: kylepaul,
         description:
-          'Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).',
+          "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
         socials: {
           // facebook: 'https://facebook.com/ali.elsharif.969',
           twitter: "https://twitter.com/_kylepaul",
@@ -177,7 +191,7 @@ export default {
         title: "UX Program Manager, Google",
         image: lizmerritt,
         description:
-          'Liz works for Google in New York, NY. Her job on the Cloud Platform team is to support UX and help make Cloud products better for users. In her spare time she enjoys podcasting, ultimate frisbee, and racing sailboats. Before Google, Liz was a freelance UX designer, digital marketer, and analytics professional.',
+          "Liz works for Google in New York, NY. Her job on the Cloud Platform team is to support UX and help make Cloud products better for users. In her spare time she enjoys podcasting, ultimate frisbee, and racing sailboats. Before Google, Liz was a freelance UX designer, digital marketer, and analytics professional.",
         socials: {
           // facebook: 'https://facebook.com/ali.elsharif.969',
           // twitter: "https://twitter.com/_kylepaul",
