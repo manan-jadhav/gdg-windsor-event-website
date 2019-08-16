@@ -58,6 +58,7 @@ import kylepaul from "../static/speakers/kylepaul.jpg";
 import lizmerritt from "../static/speakers/liz_merritt.jpeg";
 import kartikkuber from "../static/speakers/karthik_kuber.jpeg";
 import annielee from "../static/speakers/annie_lee.jpeg";
+import arafatkhan from "../static/speakers/arafat_khan.jpg";
 
 export default {
   data: () => ({
@@ -119,6 +120,19 @@ export default {
           twitter: "https://twitter.com/elsharifali",
           github: "https://github.com/elsharifali",
           linkedin: "https://www.linkedin.com/in/elsharifali"
+        }
+      },
+      {
+        name: "Arafat Khan",
+        title: "Developer at Shopify",
+        image: arafatkhan,
+        description:
+          "Arafat is a backend developer at Shopify.ca. He is fascinated by the mysteries of programming and logic. He loves experimenting and playing with code and this leads him to become the author of Tensorflow.rb ( The Ruby API of Tensorflow, the most popular Machine Learning Library). He has also made some interesting projects in Golang. <p><p>When he isn’t in front of his laptop he is hiking, kayaking, skating and doing all things outdoorsy.",
+        socials: {
+          // facebook: 'https://facebook.com',
+          // twitter: 'https://twitter.com',
+          github: ' https://github.com/Arafatk'
+          // linkedin: "https://www.linkedin.com/in/markkryska/"
         }
       },
       {
