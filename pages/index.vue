@@ -58,11 +58,7 @@
             Some of the coolest development technologies out there including Flutter, Android, TensorFlow, and Google Cloud Platform (GCP). 
           </p>
           <p>
-<<<<<<< HEAD
             Head over to the Speakers page for more details.
-=======
-            Head over to the Speakers page for more details. 
->>>>>>> master
           </p>
         </v-card-text>
       </v-card>
