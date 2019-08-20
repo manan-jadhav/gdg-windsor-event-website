@@ -27,7 +27,7 @@
     </v-flex>
     <v-flex xs12 md7 pa-2>
       <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T0z0mIGbn2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1p5C7RgL9vk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </v-flex>
     <v-flex xs12 md5>
@@ -58,7 +58,11 @@
             Some of the coolest development technologies out there including Flutter, Android, TensorFlow, and Google Cloud Platform (GCP). 
           </p>
           <p>
+<<<<<<< HEAD
             Head over to the Speakers page for more details.
+=======
+            Head over to the Speakers page for more details. 
+>>>>>>> master
           </p>
         </v-card-text>
       </v-card>
