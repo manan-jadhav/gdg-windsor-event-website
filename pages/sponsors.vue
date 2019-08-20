@@ -3,9 +3,7 @@
     <h1 class="display-3 mb-2">Thank you to our fantastic sponsors!</h1>
     <p class="mb-10"></p>
 
-    <h2
-      class="display-1 mb-1"
-    >Sponsors providing Financial Assistance</h2>
+    <h2 class="display-1 mb-1">Sponsors providing Financial Assistance</h2>
     <v-container grid-list-md>
       <v-layout row wrap>
         <v-flex xs12 v-for="(sponsor, i) in sponsors" :key="i">
@@ -70,6 +68,7 @@ import coulter from "../static/coulter_software.jpg";
 import wetech from "../static/wetechalliance.png";
 import mobistream from "../static/mobistream.jpeg";
 import wicys from "../static/wicys.jpg";
+import hackforge from "../static/hackforge.png";
 
 export default {
   data: () => ({
@@ -121,6 +120,18 @@ export default {
       }
     ],
     community_sponsors: [
+      {
+        name: "Hackforge",
+        image: hackforge,
+        description:
+          'Hackforge is a registered non-profit focused in technology. A member-driven organization, we host events and programming for beginners, professionals, and hobbyists. Hackforge operates as an event space, community workshop, and co-working space.<p><p>The Hackforge is the key catalyst of a thriving, tech-empowered Windsor.<p><p>Learn more at: <a href="http://hackf.org/">http://hackf.org/</a>',
+        socials: {
+          // facebook: 'https://www.facebook.com/UWindsor/',
+          twitter: "https://twitter.com/hackforge",
+          // github: 'https://github.com/donwardpeng',
+          linkedin: "https://www.linkedin.com/company/hackforge/about/"
+        }
+      },
       {
         name:
           "WiCyS- Women in CyberSecuity - University of Windsor Student Chapter",
