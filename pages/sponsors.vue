@@ -69,6 +69,7 @@ import wetech from "../static/wetechalliance.png";
 import mobistream from "../static/mobistream.jpeg";
 import wicys from "../static/wicys.jpg";
 import hackforge from "../static/hackforge.png";
+import riis from "../static/RIIS.png";
 
 export default {
   data: () => ({
@@ -105,6 +106,16 @@ export default {
         socials: {
           twitter: "https://twitter.com/MobiStreamSln",
           linkedin: "https://www.linkedin.com/company/mobistream-solutions"
+        }
+      },
+      {
+        name: "RIIS LLC",
+        image: riis,
+        description:
+          'Passionate software and application developers drive our business.<p><p>We recognize that our team is at the heart of our business. That’s why we have spent nearly two decades carefully building, training & engaging highly-skilled IT and business professionals. Our culture revolves around making our team better at what they do – we invest in learning, exploring & changing technology.<p><p>Learn more at: <a href="https://riis.com/">https://riis.com/</a>',
+        socials: {
+          twitter: "https://twitter.com/riisllc",
+          linkedin: "https://www.linkedin.com/company/155258/"
         }
       },
       {
