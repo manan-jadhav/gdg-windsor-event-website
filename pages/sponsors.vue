@@ -70,6 +70,7 @@ import mobistream from "../static/mobistream.jpeg";
 import wicys from "../static/wicys.jpg";
 import hackforge from "../static/hackforge.png";
 import riis from "../static/RIIS.png";
+import dsc from "../static/dsc.png";
 
 export default {
   data: () => ({
@@ -131,6 +132,18 @@ export default {
       }
     ],
     community_sponsors: [
+      {
+        name: "University of Windsor Google Developer Student Club",
+        image: dsc,
+        description:
+          'Developer Student Clubs (DSC) is a program presented by Google Developers. DSCs are university based community groups for students. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community<p><p>Learn more at: <a href="https://sites.google.com/view/dscwindsor/home">https://sites.google.com/view/dscwindsor/home/</a>',
+        socials: {
+          // facebook: 'https://www.facebook.com/UWindsor/',
+          // twitter: "https://twitter.com/hackforge",
+          // github: 'https://github.com/donwardpeng',
+          // linkedin: "https://www.linkedin.com/company/hackforge/about/"
+        }
+      },
       {
         name: "Hackforge",
         image: hackforge,
