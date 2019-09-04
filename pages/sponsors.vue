@@ -71,6 +71,8 @@ import wicys from "../static/wicys.jpg";
 import hackforge from "../static/hackforge.png";
 import riis from "../static/RIIS.png";
 import dsc from "../static/dsc.png";
+import uofwcoop from "../static/u_of_w_internship_program.png";
+
 
 export default {
   data: () => ({
@@ -132,6 +134,18 @@ export default {
       }
     ],
     community_sponsors: [
+      {
+        name: "University of Windsor Co-op and Internship Programs",
+        image: uofwcoop,
+        description:
+          'The University of Windsor co-op and internship programs integrate valuable work experience with classroom learning and professional development activities to ensure that students develop the transferable skills employers are looking for. Co-op and internship staff and UWindsor faculty members work closely to ensure that our programs are responsive to students needs and to overall enhance the student experience.',
+        socials: {
+          // facebook: 'https://www.facebook.com/UWindsor/',
+          // twitter: "https://twitter.com/hackforge",
+          // github: 'https://github.com/donwardpeng',
+          // linkedin: "https://www.linkedin.com/company/hackforge/about/"
+        }
+      },
       {
         name: "University of Windsor Google Developer Student Club",
         image: dsc,

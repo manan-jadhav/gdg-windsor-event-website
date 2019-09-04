@@ -87,6 +87,7 @@ import lizmerritt from "../static/speakers/liz_merritt.jpeg";
 import kartikkuber from "../static/speakers/karthik_kuber.jpeg";
 import annielee from "../static/speakers/annie_lee.jpeg";
 import arafatkhan from "../static/speakers/arafat_khan.jpg";
+import christastephens from "../static/speakers/christa_stephens.png"
 
 export default {
   data: () => ({
@@ -265,6 +266,21 @@ export default {
           // twitter: 'https://twitter.com/godfreynolan',
           // github: 'https://github.com/elsharifali',
           linkedin: "https://www.linkedin.com/in/gauravgks/"
+        }
+      },
+      {
+        name: "Christa Stephens",
+        title: "Software Developer",
+        image: christastephens,
+        description:
+          "During my days of being a student at Grand Circus' Coding Boot camp in Detroit, I was under a lot of stress. My days would start at 6 am and end at 9 pm. \"Code Until Complete\" was my mantra. In addition to boot camp life, I had a regular life, being a mom and a wife, a yoga instructor, geologist, gardener...you get the picture. I have a ton of responsibilities with fewer hours than the next human to complete all of these things -successfully. How do I keep my sanity? Meditation and yoga. I began yoga as a weight-loss journey 10 years ago and found out that the practice held so much more than just some \"trendy diet fad\". Being a scientist, I delved deep into why meditation was calming. I needed to know how it worked and why the yoga poses (called asanas) aided in meditation. Although stress comes and goes, I have a toolkit of coping mechanisms to combat my \"mom list\" and the ability to debug any code you throw at me.",
+        sessionTitle:"OOP VS Dopamine Lead Programming",
+        session:"Do you remember when you wrote your first line of code? Or solved fizz-buzz? What about programming the Fibonacci sequence? I'm sure you felt like the smartest person that ever used an IDE (maybe replace with laptop). But how long did that feeling last? Maybe a few seconds – a minute, I\'m sure it wasn\'t a week, right? You went scurrying along to find the next \"big thing\" to crack. To prove to yourself that\" I\'m smart, I\'m a programmer and I know things\"! But did you realize that you were in a loop? Not a lame Do While loop or the far superior enhanced for loop, I\'m talking the Dopamine Loop. Instead of learning how to break out of the infinite loop of (insert infinite loop prob) you are continually feeding the infinite Dopamine Loop. Dopamine is a chemical that is produced by the body that pretty much gives us a \"gold star\" forever time we get something right. It helps us chase the next \"gold star\" but not the same gold star, oh no, this time the star must be bigger and brighter. Sounds a bit more powerful than the enhanced for-loop! With any loop, you need to create a break and step away from the computer. During my talk, we will discuss \"breaking the loop\" by:<p><p>*Understanding Dopamine *Understanding Cortisol *How These Chemicals Interact with the Body *Mindful Work *Meditation *Taking Breaks",
+        socials: {
+          // facebook: 'https://facebook.com/ali.elsharif.969',
+          // twitter: 'https://twitter.com/godfreynolan',
+          // github: 'https://github.com/elsharifali',
+          linkedin: "https://www.linkedin.com/in/christastephens/"
         }
       },
       {
