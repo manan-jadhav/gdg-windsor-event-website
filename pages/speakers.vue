@@ -245,19 +245,6 @@ export default {
         }
       },
       {
-        name: "Liz Merritt",
-        title: "UX Program Manager, Google",
-        image: lizmerritt,
-        description:
-          "Liz works for Google in New York, NY. Her job on the Cloud Platform team is to support UX and help make Cloud products better for users. In her spare time she enjoys podcasting, ultimate frisbee, and racing sailboats. Before Google, Liz was a freelance UX designer, digital marketer, and analytics professional.",
-        socials: {
-          // facebook: 'https://facebook.com/ali.elsharif.969',
-          // twitter: "https://twitter.com/_kylepaul",
-          // github: 'https://github.com/elsharifali',
-          linkedin: "https://www.linkedin.com/in/lizmerritt/"
-        }
-      },
-      {
         name: "Gaurav Kumar Singh",
         title: "AV Research and Strategy, Ford Motor Company",
         image: guaravkumarsingh,
