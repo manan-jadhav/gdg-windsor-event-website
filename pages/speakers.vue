@@ -88,6 +88,7 @@ import kartikkuber from "../static/speakers/karthik_kuber.jpeg";
 import annielee from "../static/speakers/annie_lee.jpeg";
 import arafatkhan from "../static/speakers/arafat_khan.jpg";
 import christastephens from "../static/speakers/christa_stephens.png"
+import frankabbruzzese from "../static/speakers/frank_abbruzzese.png"
 
 export default {
   data: () => ({
@@ -105,6 +106,18 @@ export default {
           twitter: "https://twitter.com/amirfzpr",
           // github: 'https://github.com',
           linkedin: "https://www.linkedin.com/in/amirfzpr/"
+        }
+      },
+      {
+        name: "Frank Abbruzzese",
+        title:
+          "President of AlphaKOR Group",
+        image: frankabbruzzese,
+        description:
+          "Frank Abbruzzese is the president of AlphaKOR Group, with over 31 years of experience in the Technology Sector.  Frank’ experiences include developing long-term relationships with companies and organizations, providing strategic planning for technology advancement, co-founder WEtech Alliance, Entrepreneur of the Year Chamber Business Excellence 2012, mentor and known as “The Connector”.",
+        socials: {
+          twitter: "https://twitter.com/FrankAbbruzzese",
+          linkedin: "https://linkedin.com/in/frankabbruzzese"
         }
       },
       {
