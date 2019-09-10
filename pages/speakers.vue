@@ -89,6 +89,7 @@ import annielee from "../static/speakers/annie_lee.jpeg";
 import arafatkhan from "../static/speakers/arafat_khan.jpg";
 import christastephens from "../static/speakers/christa_stephens.png"
 import frankabbruzzese from "../static/speakers/frank_abbruzzese.png"
+import yvonnepilon from "../static/speakers/yvonne_pilon.jpg"
 
 export default {
   data: () => ({
@@ -257,6 +258,21 @@ export default {
           twitter: "https://twitter.com/_kylepaul",
           // github: 'https://github.com/elsharifali',
           linkedin: "https://www.linkedin.com/in/kylepaul/"
+        }
+      },
+      {
+        name: "Yvonne Pilon",
+        title: "President and CEO, WEtech Alliance",
+        image: yvonnepilon,
+        description:
+          'Yvonne Pilon is the President and CEO of WEtech Alliance, 1 of 17 Regional Innovation Centres funded by the Province of Ontario. At the age of 24, she founded her first tech venture, AD2IT, and by the age of 29, she became the youngest female to lead a Regional Innovation Centre. Yvonne has over 10 years experience in the tech sector with a core focus on growing companies and building a thriving entrepreneurial community. Yvonne recently took her love for tech to the airwaves as Host of the ‘Tech In The City’ podcast where she likes to consider herself the Carrie Bradshaw of tech. Yvonne was also just recognized as a Top Social Media Influencer in Canadian Tech. Follow her at @yvonnepilon.',
+        sessionTitle: "Get to Know & Get Plugged into the Windsor-Essex Tech Scene",
+        session: "The Windsor-Essex Tech Scene has a lot to offer! You need to be plugged into it - whether you are a student, professional or an employer. In this session, Yvonne will share how to uncover opportunities to network, land that prized tech job, tap into the pool of local tech talent, and connect with our region’s growing tech community and its programs, events and initiatives.",
+        socials: {
+          // facebook: 'https://facebook.com/ali.elsharif.969',
+          twitter: "https://twitter.com/yvonnepilon",
+          // github: 'https://github.com/elsharifali',
+          linkedin: "https://www.linkedin.com/in/yvonnepilon/"
         }
       },
       {
