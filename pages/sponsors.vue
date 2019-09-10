@@ -72,7 +72,7 @@ import hackforge from "../static/hackforge.png";
 import riis from "../static/RIIS.png";
 import dsc from "../static/dsc.png";
 import uofwcoop from "../static/u_of_w_internship_program.png";
-
+import alphaKOR from "../static/alphaKOR.png";
 
 export default {
   data: () => ({
@@ -87,6 +87,18 @@ export default {
           twitter: "https://twitter.com/uwindsor",
           // github: 'https://github.com/donwardpeng',
           linkedin: "https://www.linkedin.com/groups/38761"
+        }
+      },
+      {
+        name: "AlphaKOR Group",
+        image: alphaKOR,
+        description:
+          'AlphaKOR is your Technology Partner.  We are committed to continuously evolving to serve our business community. We\'ve enjoyed continuous growth since 1995, solidifying our position as the most dynamic technology partner in the region. We have experts on staff, and work with the most powerful technology partners in the world. Together, we offer solutions in:<p><p><ul><li>Managed Services</li><li>Software Development</li><li>Hardware and IT Support</li><li>Digital Marketing Services</li><li>Data Security</li><li>Unified Communications</li></ul><p><p>Learn more about us at: <a href="https://www.alphakor.com/">https://www.alphakor.com/',
+        socials: {
+          // facebook: 'https://www.facebook.com/UWindsor/',
+          // twitter: 'https://twitter.com/uwindsor',
+          // // github: 'https://github.com/donwardpeng',
+          // linkedin: 'https://www.linkedin.com/groups/38761'
         }
       },
       {
