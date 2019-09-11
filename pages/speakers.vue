@@ -90,6 +90,7 @@ import arafatkhan from "../static/speakers/arafat_khan.jpg";
 import christastephens from "../static/speakers/christa_stephens.png"
 import frankabbruzzese from "../static/speakers/frank_abbruzzese.png"
 import yvonnepilon from "../static/speakers/yvonne_pilon.jpg"
+import richardmccrae from "../static/speakers/richard_mccrae.jpeg"
 
 export default {
   data: () => ({
@@ -228,6 +229,19 @@ export default {
           // twitter: "https://twitter.com/godfreynolan",
           // github: 'https://github.com/elsharifali',
           linkedin: "https://www.linkedin.com/in/drannielee/"
+        }
+      },
+      {
+        name: "Richard McCrae",
+        title: "Independent Computer Software Professional",
+        image: richardmccrae,
+        description:
+          "Richard has a 20+ year history of consulting primarily in the Quality Assurance space.  Activities included teaching and mentoring adult learners using technical material in a variety of settings including in-person and remote sessions, consulting on best practices and implementation of various tools (Application Life Cycle Management (ALM), Unified Functional Testing (UFT), LoadRunner (LR) and WinRunner (currently discontinued).  He holds a PhD (Computer Science) from Nova Southeastern University, Florida (2018), MSC (Computer Science) from Queen’s University (1995), and an MBA from Syracuse University (1997). <p><p>His dissertation and current research interests are related to AI, specifically reducing the cost and improving the accuracy of classifiers.",   	
+        socials: {
+          // facebook: 'https://facebook.com/ali.elsharif.969',
+          // twitter: "https://twitter.com/godfreynolan",
+          // github: 'https://github.com/elsharifali',
+          linkedin: "https://www.linkedin.com/in/rick-mccrae-2057935"
         }
       },
       {
