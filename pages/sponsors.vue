@@ -69,6 +69,10 @@ import wetech from "../static/wetechalliance.png";
 import mobistream from "../static/mobistream.jpeg";
 import wicys from "../static/wicys.jpg";
 import hackforge from "../static/hackforge.png";
+import riis from "../static/RIIS.png";
+import dsc from "../static/dsc.png";
+import uofwcoop from "../static/u_of_w_internship_program.png";
+import alphaKOR from "../static/alphaKOR.png";
 
 export default {
   data: () => ({
@@ -83,6 +87,18 @@ export default {
           twitter: "https://twitter.com/uwindsor",
           // github: 'https://github.com/donwardpeng',
           linkedin: "https://www.linkedin.com/groups/38761"
+        }
+      },
+      {
+        name: "AlphaKOR Group",
+        image: alphaKOR,
+        description:
+          'AlphaKOR is your Technology Partner.  We are committed to continuously evolving to serve our business community. We\'ve enjoyed continuous growth since 1995, solidifying our position as the most dynamic technology partner in the region. We have experts on staff, and work with the most powerful technology partners in the world. Together, we offer solutions in:<p><p><ul><li>Managed Services</li><li>Software Development</li><li>Hardware and IT Support</li><li>Digital Marketing Services</li><li>Data Security</li><li>Unified Communications</li></ul><p><p>Learn more about us at: <a href="https://www.alphakor.com/">https://www.alphakor.com/',
+        socials: {
+          // facebook: 'https://www.facebook.com/UWindsor/',
+          // twitter: 'https://twitter.com/uwindsor',
+          // // github: 'https://github.com/donwardpeng',
+          // linkedin: 'https://www.linkedin.com/groups/38761'
         }
       },
       {
@@ -108,6 +124,16 @@ export default {
         }
       },
       {
+        name: "RIIS LLC",
+        image: riis,
+        description:
+          'Passionate software and application developers drive our business.<p><p>We recognize that our team is at the heart of our business. That’s why we have spent nearly two decades carefully building, training & engaging highly-skilled IT and business professionals. Our culture revolves around making our team better at what they do – we invest in learning, exploring & changing technology.<p><p>Learn more at: <a href="https://riis.com/">https://riis.com/</a>',
+        socials: {
+          twitter: "https://twitter.com/riisllc",
+          linkedin: "https://www.linkedin.com/company/155258/"
+        }
+      },
+      {
         name: "WEtech Alliance",
         image: wetech,
         description:
@@ -120,6 +146,30 @@ export default {
       }
     ],
     community_sponsors: [
+      {
+        name: "University of Windsor Co-op and Internship Programs",
+        image: uofwcoop,
+        description:
+          'The University of Windsor co-op and internship programs integrate valuable work experience with classroom learning and professional development activities to ensure that students develop the transferable skills employers are looking for. Co-op and internship staff and UWindsor faculty members work closely to ensure that our programs are responsive to students needs and to overall enhance the student experience.',
+        socials: {
+          // facebook: 'https://www.facebook.com/UWindsor/',
+          // twitter: "https://twitter.com/hackforge",
+          // github: 'https://github.com/donwardpeng',
+          // linkedin: "https://www.linkedin.com/company/hackforge/about/"
+        }
+      },
+      {
+        name: "University of Windsor Google Developer Student Club",
+        image: dsc,
+        description:
+          'Developer Student Clubs (DSC) is a program presented by Google Developers. DSCs are university based community groups for students. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community<p><p>Learn more at: <a href="https://sites.google.com/view/dscwindsor/home">https://sites.google.com/view/dscwindsor/home/</a>',
+        socials: {
+          // facebook: 'https://www.facebook.com/UWindsor/',
+          // twitter: "https://twitter.com/hackforge",
+          // github: 'https://github.com/donwardpeng',
+          // linkedin: "https://www.linkedin.com/company/hackforge/about/"
+        }
+      },
       {
         name: "Hackforge",
         image: hackforge,
