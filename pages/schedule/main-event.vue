@@ -16,7 +16,7 @@
               <v-flex xs12 md12 class="mb-4">
                 <strong class="headline">{{session.time}}</strong>
               </v-flex>
-              <v-flex xs12 md3 v-for="track in session.tracks" :key="track.name">
+              <v-flex class="pr-3" xs12 md3 v-for="track in session.tracks" :key="track.name">
                 <strong class="headline">{{track.name}}</strong>
                 <div class="subheading mt-2 mb-2" v-if="track.speaker">
                   <a @click="select(track.speaker)">

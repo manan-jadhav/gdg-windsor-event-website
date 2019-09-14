@@ -25,7 +25,7 @@ export default [
     time: '9:00 AM',
     tracks: [
       {
-        name: 'Keynote Speech',
+        name: 'Keynote Speech - Bridging the AI Translation Gap',
         location: 'Hall #1, Odette Building',
         speaker: _.find(speakers, {id: 'amir'})
       }
@@ -60,12 +60,12 @@ export default [
     time: '11:00 AM',
     tracks: [
       {
-        name: 'Talk 2.1',
+        name: 'Production-Grade ML for Real-world Business Problems',
         location: 'Hall #1, Odette Building',
         speaker: _.find(speakers, {id: 'harish'})
       },
       {
-        name: 'Talk 2.2',
+        name: 'An Overview of Firebase',
         location: 'Hall #2, Odette Building',
         speaker: _.find(speakers, {id: 'sumit'})
       },
@@ -115,12 +115,12 @@ export default [
     time: '1:00 PM',
     tracks: [
       {
-        name: 'Talk 3.1',
+        name: 'Introducing Tensorflow Ruby API',
         location: 'Hall #1, Odette Building',
         speaker: _.find(speakers, {id: 'arafat'})
       },
       {
-        name: 'Talk 3.2',
+        name: 'Containers, Kubernetes, and the Multi-cloud journey',
         location: 'Hall #2, Odette Building',
         speaker: _.find(speakers, {id: 'gary'})
       },
@@ -130,7 +130,7 @@ export default [
         speaker: _.find(speakers, {id: 'ikjot'})
       },
       {
-        name: 'Talk 3.4',
+        name: 'Get to Know & Get Plugged into the Windsor-Essex Tech Scene',
         location: 'Hall #4, Odette Building',
         speaker: _.find(speakers, {id: 'yvonne'})
       }
@@ -150,14 +150,14 @@ export default [
         speaker: _.find(speakers, {id: 'kyle'})
       },
       {
-        name: 'Talk 2.3',
+        name: 'OOP VS Dopamine Lead Programming',
         location: 'Hall #3, Odette Building',
         speaker: _.find(speakers, {id: 'christa'})
       },
       {
-        name: 'Talk 2.4',
+        name: 'The Mental Health Code',
         location: 'Hall #4, Odette Building',
-        speaker: _.find(speakers, {id: 'jeanette'})
+        speaker: _.find(speakers, {id: 'jeannette'})
       }
     ]
   },
@@ -175,12 +175,12 @@ export default [
         speaker: _.find(speakers, {id: 'shawn'})
       },
       {
-        name: 'Talk 2.3',
+        name: 'No Math, No Code, No Problem. Explaining Machine Learning to a Business Audience',
         location: 'Hall #3, Odette Building',
         speaker: _.find(speakers, {id: 'ali'})
       },
       {
-        name: 'Talk 2.4',
+        name: 'Flutter for Web',
         location: 'Hall #4, Odette Building',
         speaker: _.find(speakers, {id: 'don'})
       }
