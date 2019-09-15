@@ -1,7 +1,7 @@
 {
   "name": "event-website",
   "version": "1.0.0",
-  "description": "Generic event website",
+  "description": "",
   "author": "Manan Jadhav",
   "private": true,
   "scripts": {
