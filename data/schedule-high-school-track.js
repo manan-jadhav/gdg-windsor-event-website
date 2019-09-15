@@ -95,7 +95,7 @@ export default [
     time: '4:00 PM',
     tracks: [
       {
-        name: 'Wrap Up / Vote of Thanks',
+        name: 'Wrap Up',
         location: 'Hall #1, Odette Building',
       }
     ]

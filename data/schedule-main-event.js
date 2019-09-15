@@ -35,7 +35,7 @@ export default [
     time: '10:00 AM',
     tracks: [
       {
-        name: 'Talk 1.1',
+        name: 'The Ingredients of a Practical Course on ML at Scale for the Modern Data Scientist',
         location: 'Hall #1, Odette Building',
         speaker: _.find(speakers, {id: 'karthik'})
       },
@@ -45,12 +45,12 @@ export default [
         speaker: _.find(speakers, {id: 'kyle'})
       },
       {
-        name: 'Talk 1.3',
+        name: 'Agile AI Testing',
         location: 'Hall #3, Odette Building',
         speaker: _.find(speakers, {id: 'godfrey'})
       },
       {
-        name: 'Talk 1.4',
+        name: 'The State of CyberSecurity Today',
         location: 'Hall #4, Odette Building',
         speaker: _.find(speakers, {id: 'brian'})
       }
@@ -94,19 +94,19 @@ export default [
     time: '12:30 PM',
     tracks: [
       {
-        name: 'Sponsor Session - AlphaKOR',
+        name: 'Sponsor Session',
         location: 'Hall #1, Odette Building',
       },
       {
-        name: 'Sponsor Session - RIIS',
+        name: 'Sponsor Session',
         location: 'Hall #2, Odette Building',
       },
       {
-        name: 'Sponsor Session - WETech',
+        name: 'Sponsor Session',
         location: 'Hall #3, Odette Building',
       },
       {
-        name: 'Sponsor Session - MobiStream?',
+        name: 'Sponsor Session',
         location: 'Hall #4, Odette Building',
       }
     ]
@@ -165,7 +165,7 @@ export default [
     time: '3:00 PM',
     tracks: [
       {
-        name: 'Talk 4.1',
+        name: 'Feature Reduction Based on Performance and Cost',
         location: 'Hall #1, Odette Building',
         speaker: _.find(speakers, {id: 'richard'})
       },
@@ -190,7 +190,7 @@ export default [
     time: '4:00 PM',
     tracks: [
       {
-        name: 'Wrap Up / Vote of Thanks',
+        name: 'Wrap Up',
         location: 'Hall #1, Odette Building',
       }
     ]
