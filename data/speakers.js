@@ -14,9 +14,9 @@ import kartikkuber from "../static/speakers/karthik_kuber.jpeg";
 import annielee from "../static/speakers/annie_lee.jpeg";
 import arafatkhan from "../static/speakers/arafat_khan.jpg";
 import christastephens from "../static/speakers/christa_stephens.png"
-import frankabbruzzese from "../static/speakers/frank_abbruzzese.png"
 import yvonnepilon from "../static/speakers/yvonne_pilon.jpg"
 import richardmccrae from "../static/speakers/richard_mccrae.jpeg"
+import briangernon from "../static/speakers/brian_gernon.png"
 
 export default [
   {
@@ -33,19 +33,6 @@ export default [
       twitter: "https://twitter.com/amirfzpr",
       // github: 'https://github.com',
       linkedin: "https://www.linkedin.com/in/amirfzpr/"
-    }
-  },
-  {
-    id: 'frank',
-    name: "Frank Abbruzzese",
-    title:
-      "President of AlphaKOR Group",
-    image: frankabbruzzese,
-    description:
-      "Frank Abbruzzese is the president of AlphaKOR Group, with over 31 years of experience in the Technology Sector.  Frank’ experiences include developing long-term relationships with companies and organizations, providing strategic planning for technology advancement, co-founder WEtech Alliance, Entrepreneur of the Year Chamber Business Excellence 2012, mentor and known as “The Connector”.",
-    socials: {
-      twitter: "https://twitter.com/FrankAbbruzzese",
-      linkedin: "https://linkedin.com/in/frankabbruzzese"
     }
   },
   {
@@ -105,6 +92,20 @@ export default [
       twitter: "https://twitter.com/elsharifali",
       github: "https://github.com/elsharifali",
       linkedin: "https://www.linkedin.com/in/elsharifali"
+    }
+  },
+  {
+    id: 'brian',
+    name: "Brian Gernon",
+    title:
+      "Account Executive, AlphaKOR Group",
+    image: briangernon,
+    description:
+      "Brian Gernon is passionate about business productivity and power of technology. He is an energetic innovator who strives to help clients improve productivity to their business challenges. Mr. Gernon serves as an active member of the Professional Engineers of Ontario. He holds two degrees from the University of Waterloo including a Masters degree in AI and a Bachelors degree in Mechanical Engineering.",
+    sessionTitle:"The Current State of Cyber Security",
+    session:"Brian provides a Cyber Security update based on a survey of 2500 software development shops across Canada in 2019. The presentation has unique visibility into the state of in the Ransomware from a perspective of developers who are dealing with these infections on a daily basis. Included are Ransomware analytics, impact, and strategies for ensuring recovery and continuity in the face of the growing threat.",
+      socials: {
+      linkedin: "https://www.linkedin.com/in/briangernon"
     }
   },
   {
@@ -240,6 +241,7 @@ export default [
     image: guaravkumarsingh,
     description:
       "Gaurav brings expertise on emerging technologies like artificial intelligence and data science. He also dabbles in technical strategy and planning of autonomous vehicles (AV). Through speaking and panel gigs, he has shared platforms with prominent researchers and stakeholders of (AV) technology and expanded his network.",
+      sessionTitle:"Enabling Technology behind Autonomous Vehicles",
     socials: {
       // facebook: 'https://facebook.com/ali.elsharif.969',
       // twitter: 'https://twitter.com/godfreynolan',
