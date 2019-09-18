@@ -98,8 +98,8 @@ export default [
     image: alielsharif,
     description:
       "Ali El-Sharif lives in Windsor and works as a Business Intelligence Consultant for Motifworks in metro Detroit.  Ali is a Ph.D. candidate at Nova Southeastern University, conducting research in Machine Learning interpretability.",
-    sessionTitle: "No Math, No Code, No Problem.  Explaining Machine Learning to a Business Audience",
-    session:"",  
+    sessionTitle: "Machine Learning Interpretability",
+    session:"Despite Machine Learning models being increasingly used in critical decision making and meeting classification accuracy standards, they remain untrusted black boxes due to decision makers lack of insight into their inner logic.  Therefore, it is necessary to develop interpretable Machine Learning models that will engender trust in the knowledge they generate and contribute to individual decision makers intention to adopt them in the field.  This talk will present the importance of Machine Learning interpretability, challenges to developing interpretable models and emerging research/techniques to make Machine Learning models more interpretable.",  
     socials: {
       facebook: "https://facebook.com/ali.elsharif.969",
       twitter: "https://twitter.com/elsharifali",
@@ -144,7 +144,9 @@ export default [
     image: kartikkuber,
     description:
       "Karthik Kuber is a Director of AI/ML at Loblaw Companies Limited and an adjunct instructor of Machine Learning at York University in Toronto. He has several years of academic research as well as applied data science experience primarily in the technology and banking sectors. His current interests are in exploring and applying various ML techniques in the context of large-scale engineering systems with a special emphasis on interpretability. Previously, he was at RBC in Toronto, at Microsoft in Redmond WA, and had received his PhD in 2014 from Syracuse University in Computer Science focusing on Evolutionary Computation. He is also an instructor and university ambassador for NVIDIA's Deep Learning Institute, has co-organised three editions of the International Workshop on Evolutionary Rule-based ML, and volunteers actively with DataKind on projects applying Data Science for social causes.",
-    socials: {
+      sessionTitle: "The Ingredients of a Practical Course on ML at Scale for the Modern Data Scientist",
+      session: "Today’s data scientists have to be well-rounded! Not only do they need to understand the fundamentals of algorithms, basics of statistics/machine learning, and working with data, they should also be able to look at the problem from all angles and considerations - and one of them is scale. As data grows larger in size, complexity, or types, practitioners should still be able to work their magic! To this end, this talk will discuss the typical problems that occur at scale, infrastructure required, time/memory considerations, and working on the cloud, and how all of this is implemented in a hands-on ML program to prepare students for a successful career in data science.",
+      socials: {
       // facebook: 'https://facebook.com',
       // twitter: 'https://twitter.com',
       // github: 'https://github.com'
@@ -158,6 +160,8 @@ export default [
     image: annielee,
     description:
       "Dr. Lee is a Research Scientist in Natural Language Understanding at Stradigi AI.  Dr. Lee holds a PhD from the University of Waterloo at the Centre of Pattern Analysis and Machine Intelligence and has more than a decade of experience in data mining and machine learning. Dr. Lee's passion for finding patterns in society and in nature in the big data era has lead to dozens of publications in computational advertising, sentiment analysis, and sequence analysis, including a highly-read review paper on big data. Most notably, Dr. Lee developed interpretable unsupervised algorithms, which uncovered patterns utilizing clustering and partitioning of raw data and a priori knowledge.<p><p>Currently, at Stradigi AI, Dr. Lee designs competitive deep learning algorithms applied to document classification (such as sentiment analysis, topic classification), named entity recognition, and keyphrase extraction.  Previously, Dr. Lee was the Lead Research Scientist for the Data Science team at VerticalScope Inc., where she drove the efforts for the in-house academic research, algorithmic implementations, and evaluations on identifying product names, sentiments analysis towards product features, and topic modeling in order to generate key business insights for reporting brand and site health. <p><p>Dr. Lee has served as the funding chair for Broadening Participation in Data Mining co-hosted with KDD (Knowledge Discovery and Data Mining) and was a co-chair of Women in Machine Learning, co-hosted with Neural Information Processing Systems (NeurIPs, previously NIPS).",
+      sessionTitle:"Machine Learning Life-Cycle applied to Text Classification",
+      session:"In this session, Annie will be introducing the steps of machine learning life cycle by illustrating  applications to text classification.",
     socials: {
       // facebook: 'https://facebook.com/ali.elsharif.969',
       // twitter: "https://twitter.com/godfreynolan",
@@ -171,7 +175,9 @@ export default [
     title: "Independent Computer Software Professional",
     image: richardmccrae,
     description:
-      "Richard has a 20+ year history of consulting primarily in the Quality Assurance space.  Activities included teaching and mentoring adult learners using technical material in a variety of settings including in-person and remote sessions, consulting on best practices and implementation of various tools (Application Life Cycle Management (ALM), Unified Functional Testing (UFT), LoadRunner (LR) and WinRunner (currently discontinued).  He holds a PhD (Computer Science) from Nova Southeastern University, Florida (2018), MSC (Computer Science) from Queen’s University (1995), and an MBA from Syracuse University (1997). <p><p>His dissertation and current research interests are related to AI, specifically reducing the cost and improving the accuracy of classifiers.",   	
+      "Richard McCrae is a seasoned IT professional with 20 years of experience mostly in the automated testing arena.  For most of the last 15 years, he has been an independent consultant with Compulogic Corp in Michigan.  He completed his PhD in Computer Science from Nova Southeastern University in 2018.  He is primarily interested in AI, especially decision making.",   	
+      sessionTitle: "Feature Reduction Based on Performance and Cost",
+      session: "Neural Networks and Decision Trees are often used as classifiers, frequently with respect to medical diagnosis.  One issue is that all of the input features (tests) are determined and then the diagnosis is generated.  All tests have a cost which might include pain or discomfort, inconvenience, risk of present or future complications and, of course, the outright dollar cost.  Further, costs might be quite dynamic varying from person to person and place to place.  My approach selects a ‘good enough’ approach to the results obtained and was able to reduce the number of features required across a collection of different diagnoses and to dynamically respond to costs.  As a bonus, the results obtained were frequently better than those using all of the input features.",
     socials: {
       // facebook: 'https://facebook.com/ali.elsharif.969',
       // twitter: "https://twitter.com/godfreynolan",
