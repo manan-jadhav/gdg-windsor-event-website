@@ -17,6 +17,7 @@ import christastephens from "../static/speakers/christa_stephens.png"
 import yvonnepilon from "../static/speakers/yvonne_pilon.jpg"
 import richardmccrae from "../static/speakers/richard_mccrae.jpeg"
 import briangernon from "../static/speakers/brian_gernon.png"
+import ikjotsaini from "../static/speakers/ikjot-saini.jpg"
 
 export default [
   {
@@ -232,6 +233,22 @@ export default [
       twitter: "https://twitter.com/yvonnepilon",
       // github: 'https://github.com/elsharifali',
       linkedin: "https://www.linkedin.com/in/yvonnepilon/"
+    }
+  },
+  {
+    id: 'ikjot',
+    name: "Ikjot Saini",
+    title: "Ph.D. Candidate",
+    image: ikjotsaini,
+    description:
+      "Ikjot Saini is pursuing her Ph.D. in Cybersecurity of Connected Vehicles in the School of Computer Science at the University of Windsor. Currently, her research focuses on the location privacy in vehicular networks. She is passionate about cyber security and given the breadth of this field, she has a keen interest to learn new tools and techniques. Her recent research interests focus on cybersecurity and privacy issues in Vehicular Ad hoc Networks, pseudonymous authentication and security credential management systems in the vehicular environment. She leads the Women in Cybersecurity (WiCyS) Windsor Student Chapter. Her community involvement includes different outreach events as Scientist Like Her, Soapbox Science and GoCodeGirl, where she presented and engaged with other young women to learn science and coding.",
+      sessionTitle:"A new Cyberspace of Connected Vehicles: Secure or Not?",
+      session:"The emerging technology of Connected Vehicles is dedicated for the increasing safety and prevention of the traffic congestion due to growing number of vehicles on the road. It provides communication services among nearby vehicles and with roadside infrastructure. This introduces a new cyberspace of talking vehicles. In this session, we will talk about the underlying potential security threats and privacy concerns of this technology.",
+      socials: {
+      // facebook: 'https://facebook.com/ali.elsharif.969',
+      // twitter: 'https://twitter.com/godfreynolan',
+      // github: 'https://github.com/elsharifali',
+      linkedin: "https://www.linkedin.com/in/ikjotsaini/"
     }
   },
   {

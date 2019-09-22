@@ -1,11 +1,12 @@
 <template>
   <v-layout column>
-    <h1 class="display-2 mb-2">High School Track Schedule</h1>
-    <p class="mb-10">Stay tuned as we update our schedule or add new sessions!</p>
+    <h1 class="display-2 mb-2">High School Track Schedule (Tentative)</h1>
+    <p class="mb-10">This will be finalized one week before the event.</p>
     <h3>Oct. 5, 2019</h3>
     <h3>Erie Hall, University of Windsor</h3>
     <a href="/schedule/main-event">Looking for Main Event schedule?</a>
     <br />
+    <h2>The aim of the High School Track is to teach a group of 30 students how to program. During it, students will be working with Arduino Microcontrollers to build a wide range of projects from a self-balancing robots to line-tracking robots. The session will be led by instructors from local high schools and university students. Students will keep what they build to continue working on after the event.</h2>
     <v-timeline align-top dense>
       <v-timeline-item
         v-for="(session, i) in sessions"

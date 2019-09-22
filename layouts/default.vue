@@ -147,14 +147,14 @@ export default {
         //   title: 'Home',
         //   to: '/'
         // },
-        // {
-        //   title: 'Schedule (Main Event)',
-        //   to: '/schedule'
-        // },
-        // {
-        //   title: 'Schedule (High School Track)',
-        //   to: '/schedule'
-        // },
+        {
+          title: 'Schedule (Main Event)',
+          to: '/schedule/main-event'
+        },
+        {
+          title: 'Schedule (High School Track)',
+          to: '/schedule/high-school-track'
+        },
         {
           title: 'Speakers',
           to: '/speakers'

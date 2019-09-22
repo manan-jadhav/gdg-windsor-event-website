@@ -3,7 +3,7 @@ import _ from 'lodash'
 
 export default [
   {
-    time: '8:00 AM',
+    time: '8:00 AM - 8:45 AM',
     tracks: [
       {
         name: 'Registration',
@@ -13,7 +13,7 @@ export default [
     ]
   },
   {
-    time: '8:45 AM',
+    time: '8:45 AM - 9:00 AM',
     tracks: [
       {
         name: 'Introductions',
@@ -22,67 +22,67 @@ export default [
     ]
   },
   {
-    time: '9:00 AM',
+    time: '9:00 AM - 9:50 AM',
     tracks: [
       {
         name: 'Keynote Speech - Bridging the AI Translation Gap',
-        location: 'Hall #1, Odette Building',
+        location: 'Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'amir'})
       }
     ]
   },
   {
-    time: '10:00 AM',
+    time: '10:00 AM - 10:45 AM',
     tracks: [
       {
         name: 'The Ingredients of a Practical Course on ML at Scale for the Modern Data Scientist',
-        location: 'Hall #1, Odette Building',
+        location: 'Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'karthik'})
       },
       {
         name: 'Actions on Google',
-        location: 'Hall #2, Odette Building',
+        location: 'Room #2, Odette Building',
         speaker: _.find(speakers, {id: 'kyle'})
       },
       {
         name: 'Agile AI Testing',
-        location: 'Hall #3, Odette Building',
+        location: 'Room #3, Odette Building',
         speaker: _.find(speakers, {id: 'godfrey'})
       },
       {
         name: 'The State of CyberSecurity Today',
-        location: 'Hall #4, Odette Building',
+        location: 'Room #4, Odette Building',
         speaker: _.find(speakers, {id: 'brian'})
       }
     ]
   },
   {
-    time: '11:00 AM',
+    time: '10:50 AM - 11:35 AM',
     tracks: [
       {
         name: 'Production-Grade ML for Real-world Business Problems',
-        location: 'Hall #1, Odette Building',
+        location: 'Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'harish'})
       },
       {
         name: 'An Overview of Firebase',
-        location: 'Hall #2, Odette Building',
+        location: 'Room #2, Odette Building',
         speaker: _.find(speakers, {id: 'sumit'})
       },
       {
-        name: 'Talk 2.3',
-        location: 'Hall #3, Odette Building',
+        name: 'Enabling Technology behind Autonomous Vehicles',
+        location: 'Room #3, Odette Building',
         speaker: _.find(speakers, {id: 'gaurav'})
       },
       {
-        name: 'Talk 2.4',
-        location: 'Hall #4, Odette Building',
+        name: 'Coming Soon',
+        location: 'Room #4, Odette Building',
         speaker: _.find(speakers, {id: 'mark'})
       }
     ]
   },
   {
-    time: '12:00 PM',
+    time: '11:45 AM - 12:45 PM',
     tracks: [
       {
         name: 'Lunch',
@@ -91,107 +91,116 @@ export default [
     ]
   },
   {
-    time: '12:30 PM',
+    time: '12:45 PM - 1:15 PM',
     tracks: [
       {
         name: 'Sponsor Session',
-        location: 'Hall #1, Odette Building',
+        location: 'Allan Conway Room , Odette Building',
       },
       {
         name: 'Sponsor Session',
-        location: 'Hall #2, Odette Building',
+        location: 'Room #2, Odette Building',
       },
       {
         name: 'Sponsor Session',
-        location: 'Hall #3, Odette Building',
+        location: 'Room #3, Odette Building',
       },
       {
         name: 'Sponsor Session',
-        location: 'Hall #4, Odette Building',
+        location: 'Room #4, Odette Building',
       }
     ]
   },
   {
-    time: '1:00 PM',
+    time: '1:20 PM - 2:05 PM',
     tracks: [
       {
         name: 'Introducing Tensorflow Ruby API',
-        location: 'Hall #1, Odette Building',
+        location: 'Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'arafat'})
       },
       {
         name: 'Containers, Kubernetes, and the Multi-cloud journey',
-        location: 'Hall #2, Odette Building',
+        location: 'Room #2, Odette Building',
         speaker: _.find(speakers, {id: 'gary'})
       },
       {
-        name: 'Talk 3.3',
-        location: 'Hall #3, Odette Building',
+        name: 'A new Cyberspace of Connected Vehicles: Secure or Not?',
+        location: 'Room #3, Odette Building',
         speaker: _.find(speakers, {id: 'ikjot'})
       },
       {
         name: 'Get to Know & Get Plugged into the Windsor-Essex Tech Scene',
-        location: 'Hall #4, Odette Building',
+        location: 'Room #4, Odette Building',
         speaker: _.find(speakers, {id: 'yvonne'})
       }
     ]
   },
   {
-    time: '2:00 PM',
+    time: '2:10 PM - 2:55 PM',
     tracks: [
       {
-        name: 'Talk 4.1',
-        location: 'Hall #1, Odette Building',
+        name: 'Machine Learning Life-Cycle applied to Text Classification',
+        location: 'Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'annie'})
       },
       {
         name: 'Progressive Web',
-        location: 'Hall #2, Odette Building',
+        location: 'Room #2, Odette Building',
         speaker: _.find(speakers, {id: 'kyle'})
       },
       {
         name: 'OOP VS Dopamine Lead Programming',
-        location: 'Hall #3, Odette Building',
+        location: 'Room #3, Odette Building',
         speaker: _.find(speakers, {id: 'christa'})
       },
       {
         name: 'The Mental Health Code',
-        location: 'Hall #4, Odette Building',
+        location: 'Room #4, Odette Building',
         speaker: _.find(speakers, {id: 'jeannette'})
       }
     ]
   },
   {
-    time: '3:00 PM',
+    time: '2:55 PM - 3:10 PM',
+    tracks: [
+      {
+        name: 'Break',
+        location: 'Main Lobby, Odette Building',
+      }
+    ]
+  },
+  {
+    time: '3:10 PM - 3:55 PM',
     tracks: [
       {
         name: 'Feature Reduction Based on Performance and Cost',
-        location: 'Hall #1, Odette Building',
+        location: 'Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'richard'})
       },
       {
-        name: 'Progressive Web',
-        location: 'Hall #2, Odette Building',
+        name: 'Coming Soon',
+        location: 'Room #2, Odette Building',
         speaker: _.find(speakers, {id: 'shawn'})
       },
       {
-        name: 'No Math, No Code, No Problem. Explaining Machine Learning to a Business Audience',
-        location: 'Hall #3, Odette Building',
+        name: 'Machine Learning Interpretability',
+        location: 'Room #3, Odette Building',
         speaker: _.find(speakers, {id: 'ali'})
       },
       {
         name: 'Flutter for Web',
-        location: 'Hall #4, Odette Building',
+        location: 'Room #4, Odette Building',
         speaker: _.find(speakers, {id: 'don'})
       }
     ]
   },
   {
-    time: '4:00 PM',
+    time: '4:00 PM - 4:30 PM',
     tracks: [
       {
         name: 'Wrap Up',
-        location: 'Hall #1, Odette Building',
+        location: 'Allan Conway Room , Odette Building',
       }
     ]
   },
