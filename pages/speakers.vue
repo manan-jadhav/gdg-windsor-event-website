@@ -8,7 +8,7 @@
           <v-card class="mb-4" height="100%">
             <v-col>
               <!-- <v-flex xs4> -->
-              <v-img :src="speaker.image" height="300px" width="500px"></v-img>
+              <v-img :src="speaker.image" height="300px" width="400px"></v-img>
               <!-- </v-flex>
               <v-flex xs8>-->
               <v-card-text>

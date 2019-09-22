@@ -66,9 +66,9 @@
           image: ali,
           description: 'Ali El-Sharif lives in Windsor and works as a Business Intelligence Consultant for Motifworks in metro Detroit.  Ali is a Ph.D. candidate at Nova Southeastern University, conducting research in Machine Learning interpretability.',
           socials: {
-            facebook: 'https://facebook.com/ali.elsharif.969',
-            twitter: 'https://twitter.com/elsharifali',
-            github: 'https://github.com/elsharifali',
+            // facebook: 'https://facebook.com/ali.elsharif.969',
+            // twitter: 'https://twitter.com/elsharifali',
+            // github: 'https://github.com/elsharifali',
             linkedin: 'https://www.linkedin.com/in/elsharifali'
           }
         },

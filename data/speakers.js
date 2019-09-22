@@ -88,9 +88,9 @@ export default [
     sessionTitle: "Machine Learning Interpretability",
     session:"Despite Machine Learning models being increasingly used in critical decision making and meeting classification accuracy standards, they remain untrusted black boxes due to decision makers lack of insight into their inner logic.  Therefore, it is necessary to develop interpretable Machine Learning models that will engender trust in the knowledge they generate and contribute to individual decision makers intention to adopt them in the field.  This talk will present the importance of Machine Learning interpretability, challenges to developing interpretable models and emerging research/techniques to make Machine Learning models more interpretable.",  
     socials: {
-      facebook: "https://facebook.com/ali.elsharif.969",
-      twitter: "https://twitter.com/elsharifali",
-      github: "https://github.com/elsharifali",
+      // facebook: "https://facebook.com/ali.elsharif.969",
+      // twitter: "https://twitter.com/elsharifali",
+      // github: "https://github.com/elsharifali",
       linkedin: "https://www.linkedin.com/in/elsharifali"
     }
   },
