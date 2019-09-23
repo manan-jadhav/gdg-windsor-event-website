@@ -18,6 +18,7 @@ import yvonnepilon from "../static/speakers/yvonne_pilon.jpg"
 import richardmccrae from "../static/speakers/richard_mccrae.jpeg"
 import briangernon from "../static/speakers/brian_gernon.png"
 import ikjotsaini from "../static/speakers/ikjot-saini.jpg"
+import shawnelliot from "../static/speakers/shawn_elliot.png"
 
 export default [
   {
@@ -63,6 +64,20 @@ export default [
     socials: {
       linkedin: "https://www.linkedin.com/in/sumit-chandel-a273792/",
       twitter: "https://twitter.com/s_chande"
+    }
+  },
+  {
+    id: 'shawn',
+    name: "Shawn Elliot ",
+    title: "Director of Infrastructure at Atlas Oil",
+    image: shawnelliot,
+    description:
+      "Shawn Elliot is the Director of Infrastructure at Atlas Oil. He is an avant-garde of home automation and driven luminary in the IoT sector with a history of developing industry leading solutions.  His designs and patented technologies have helped shape the industry of Oil Field Services and Fuel Logistics. His focus includes setting the infrastructure roadmap for a company that leads innovation in the Oil & Energy industry, delivering business value, and ensuring the performance of 50+ remote mobile industrial hot-fueling units scattered across the globe. Shawn's passion for home automation grew from his love of technology and his need to push the limits of what's possible. His passions outside of work and technology include day trading on the high-end shoe market as a sneaker reseller and he was an early adopter of Stock-X.  He currently resides on Gross Isle in the Detroit Metro area with his beloved long-time girlfriend.",
+    socials: {
+      // facebook: "https://facebook.com/ali.elsharif.969",
+      // twitter: "https://twitter.com/elsharifali",
+      // github: "https://github.com/elsharifali",
+      linkedin: "https://www.linkedin.com/in/shawn-elliott-b6946922/"
     }
   },
   {
@@ -118,7 +133,8 @@ export default [
     image: markkrysta,
     description:
       "Mark Kryska is the Vice President Of Technology at Atlas Oil. He is an innovative and competent leader with a track record of meeting deadlines on high-impact projects that enhance performance, add value, effect change, drive profits and growth for diverse companies and organizations. His focus includes setting the IT strategy for a company that leads innovation in the Oil & Energy industry, Digital Transformation, and aligning IT to support business needs. Prior to his time at Atlas Oil he spent five years at Kelly Services, Inc where he was the Senior Director of Product Management & Strategy, and eight years working at Ernst & Young, LLP where he was a Manager in their Enterprise Intelligence practice. His relationship with innovation is driven by a love of mathematics and technology solutions. He received his undergraduate from University of Michigan in Computer Information Sciences and is currently enrolled in their MBA program. He currently resides in the Detroit Metro area with his wife and two children.",
-    socials: {
+    sessionTitle:"From Invention to Implementation, Our Digital Transformation Journey",
+      socials: {
       // facebook: 'https://facebook.com',
       // twitter: 'https://twitter.com',
       // github: 'https://github.com'

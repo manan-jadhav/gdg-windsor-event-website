@@ -155,7 +155,7 @@ export default [
         speaker: _.find(speakers, {id: 'christa'})
       },
       {
-        name: 'Coming Soon',
+        name: 'From Invention to Implementation, Our Digital Transformation Journey',
         location: 'Room #4, Odette Building',
         speaker: _.find(speakers, {id: 'mark'})
       }
