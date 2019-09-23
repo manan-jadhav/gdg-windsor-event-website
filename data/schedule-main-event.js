@@ -62,7 +62,7 @@ export default [
       {
         name: 'Coming Soon',
         location: 'Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'shawn'})
+        speaker: _.find(speakers, {id: 'comingsoon'})
       },
       {
         name: 'An Overview of Firebase',
