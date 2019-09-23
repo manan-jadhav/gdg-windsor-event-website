@@ -75,9 +75,9 @@ export default [
         speaker: _.find(speakers, {id: 'gaurav'})
       },
       {
-        name: 'Coming Soon',
+        name: 'The Mental Health Code',
         location: 'Room #4, Odette Building',
-        speaker: _.find(speakers, {id: 'mark'})
+        speaker: _.find(speakers, {id: 'jeannette'})
       }
     ]
   },
@@ -155,9 +155,9 @@ export default [
         speaker: _.find(speakers, {id: 'christa'})
       },
       {
-        name: 'The Mental Health Code',
+        name: 'Coming Soon',
         location: 'Room #4, Odette Building',
-        speaker: _.find(speakers, {id: 'jeannette'})
+        speaker: _.find(speakers, {id: 'mark'})
       }
     ]
   },
