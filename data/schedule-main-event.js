@@ -60,9 +60,9 @@ export default [
     time: '10:50 AM - 11:35 AM',
     tracks: [
       {
-        name: 'Production-Grade ML for Real-world Business Problems',
+        name: 'Coming Soon',
         location: 'Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'harish'})
+        speaker: _.find(speakers, {id: 'shawn'})
       },
       {
         name: 'An Overview of Firebase',

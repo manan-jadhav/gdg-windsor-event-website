@@ -37,20 +37,6 @@ export default [
     }
   },
   {
-    id: 'harish',
-    name: "Harish Bhaskar",
-    title:
-      "President and Chief Consultant of Zero One Infinity Consulting (ZOIC) Services Ltd",
-    image: harishbhaskar,
-    description:
-      "Dr. Harish Bhaskar is the President and Chief Consultant of Zero One Infinity Consulting (ZOIC) Services Ltd., an Ontario based AI Consulting company. <p><p>Prior to ZOIC, Harish was a chief engineer at Samsung Electronics in India and an assistant professor/lead at the Visual Signal Analysis and Processing (VSAP) research center at Khalifa University, UAE. Harish also worked as a researcher, managing the Research and Development (R&D) of the Ministry of Defense (MoD) UK and European Union (EU)-funded projects at Lancaster and Manchester universities UK.  <p><p>Harish is also a keen educator and has served on academic, research and advisory positions at various universities, including University of Waterloo and York University. In his university-related work, Harish has supervised and coached many students and interns on a variety of AI Projects in computer vision, natural language processing, robotics, behavioural analytics, and security; also advising many post-doctoral researchers on the same. In his 16+ years of work experience in AI across many industries, Harish continues to acquire funded research and development projects from the public and private sectors. Harish and his team operate jointly with several industrial partners in Canada and across the world in working towards the common goal of using advanced AI techniques to deliver effective autonomous solutions to practical business problems.",
-    sessionTitle:"Production-Grade ML for Real-world Business Problems",
-    session:"Building and deploying an ML algorithm for real-world business problems has shifted into a non-prescriptive approach to solution development. This requires an iterative experiment-validation cycle to effectively assess the behavior of models as it evolves over real-time and system-level changes. Therefore, constant monitoring and improvements are required to facilitate system-level interactions and interfaces that resolve the weak abstraction boundaries that does not fit into tidy encapsulation. In this presentation, using our consulting experience and a real-world problem as a use-case, I will cover aspects of designing a production-grade ML architecture along with testing concepts.",
-    socials: {
-      linkedin: "https://www.linkedin.com/in/harishbhasky/"
-    }
-  },
-  {
     id: 'gary',
     name: "Gary Coburn",
     title: "Google Cloud Customer Engineer",
