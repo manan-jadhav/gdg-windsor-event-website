@@ -60,9 +60,9 @@ export default [
     time: '10:50 AM - 11:35 AM',
     tracks: [
       {
-        name: 'Coming Soon',
+        name: 'Introducing Tensorflow Ruby API',
         location: 'Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'comingsoon'})
+        speaker: _.find(speakers, {id: 'arafat'})
       },
       {
         name: 'An Overview of Firebase',
@@ -115,9 +115,9 @@ export default [
     time: '1:20 PM - 2:05 PM',
     tracks: [
       {
-        name: 'Introducing Tensorflow Ruby API',
+        name: 'Coming Soon',
         location: 'Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'arafat'})
+        speaker: _.find(speakers, {id: 'comingsoon'})
       },
       {
         name: 'Containers, Kubernetes, and the Multi-cloud journey',
