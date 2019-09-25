@@ -125,9 +125,9 @@ export default [
         speaker: _.find(speakers, {id: 'gary'})
       },
       {
-        name: 'A new Cyberspace of Connected Vehicles: Secure or Not?',
+        name: 'OOP VS Dopamine Lead Programming',
         location: 'Room #3, Odette Building',
-        speaker: _.find(speakers, {id: 'ikjot'})
+        speaker: _.find(speakers, {id: 'christa'})
       },
       {
         name: 'Get to Know & Get Plugged into the Windsor-Essex Tech Scene',
@@ -150,9 +150,9 @@ export default [
         speaker: _.find(speakers, {id: 'kyle'})
       },
       {
-        name: 'OOP VS Dopamine Lead Programming',
+        name: 'A new Cyberspace of Connected Vehicles: Secure or Not?',
         location: 'Room #3, Odette Building',
-        speaker: _.find(speakers, {id: 'christa'})
+        speaker: _.find(speakers, {id: 'ikjot'})
       },
       {
         name: 'From Invention to Implementation, Our Digital Transformation Journey',
