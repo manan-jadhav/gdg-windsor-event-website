@@ -115,9 +115,9 @@ export default [
     time: '1:20 PM - 2:05 PM',
     tracks: [
       {
-        name: 'Coming Soon',
+        name: 'Progressive Web',
         location: 'Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'comingsoon'})
+        speaker: _.find(speakers, {id: 'kyle})
       },
       {
         name: 'Containers, Kubernetes, and the Multi-cloud journey',
@@ -145,9 +145,9 @@ export default [
         speaker: _.find(speakers, {id: 'annie'})
       },
       {
-        name: 'Progressive Web',
+        name: 'Coming Soon',
         location: 'Room #2, Odette Building',
-        speaker: _.find(speakers, {id: 'kyle'})
+        speaker: _.find(speakers, {id: 'comingsoon'})
       },
       {
         name: 'A new Cyberspace of Connected Vehicles: Secure or Not?',
