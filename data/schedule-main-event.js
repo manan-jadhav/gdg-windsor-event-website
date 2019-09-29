@@ -145,9 +145,9 @@ export default [
         speaker: _.find(speakers, {id: 'annie'})
       },
       {
-        name: 'Coming Soon',
+        name: 'Feature Reduction Based on Performance and Cost',
         location: 'Room #2, Odette Building',
-        speaker: _.find(speakers, {id: 'kyle'})
+        speaker: _.find(speakers, {id: 'richard'})
       },
       {
         name: 'A new Cyberspace of Connected Vehicles: Secure or Not?',
@@ -174,12 +174,12 @@ export default [
     time: '3:10 PM - 3:55 PM',
     tracks: [
       {
-        name: 'Feature Reduction Based on Performance and Cost',
+        name: 'Coming Soon - How to Build an Innovation Program',
         location: 'Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'richard'})
+        speaker: _.find(speakers, {id: 'comingsoon'})
       },
       {
-        name: 'Coming Soon',
+        name: 'An Overview of Google Home Automation',
         location: 'Room #2, Odette Building',
         speaker: _.find(speakers, {id: 'shawn'})
       },

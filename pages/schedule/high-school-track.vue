@@ -6,7 +6,12 @@
     <h3>Erie Hall, University of Windsor</h3>
     <a href="/schedule/main-event">Looking for Main Event schedule?</a>
     <br />
-    <h2>The aim of the High School Track is to teach a group of 30 students how to program. During it, students will be working with Arduino Microcontrollers to build a wide range of projects from a self-balancing robots to line-tracking robots. The session will be led by instructors from local high schools and university students. Students will keep what they build to continue working on after the event.</h2>
+    <h2>The aim of the High School Track is to teach a group of 30 students how to program. During it, students will be working with Arduino Microcontrollers to build a wide range of projects from a self-balancing robots to line-tracking robots. The session will be led by instructors from local high schools and university students. Students will keep what they build to continue working on after the event.
+    <br/><br/>Some of the projects we will build include, <br/>
+    1. "What's in the Fridge? - a project so that you do not need to get up from the couch :) <br/>
+    2. "The Robot that never falls down" - the name says it all! <br/>
+    3. "Never going to lock you out" - build the ultimate door lock system for your house.<br/>
+    </h2>
     <v-timeline align-top dense>
       <v-timeline-item
         v-for="(session, i) in sessions"

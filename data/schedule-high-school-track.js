@@ -32,7 +32,7 @@ export default [
     time: '10:00 AM - 11:45 AM',
     tracks: [
       {
-        name: 'High School Track',
+        name: 'Introduction to Arduino Based Programming and Projects',
         location: 'Room #1, Erie Hall'
       }
     ]
@@ -71,7 +71,7 @@ export default [
     time: '1:25 PM - 4:00 PM',
     tracks: [
       {
-        name: 'High School Track',
+        name: 'Build a Project!',
         location: 'Room #1, Erie Hall'
       }
     ]
