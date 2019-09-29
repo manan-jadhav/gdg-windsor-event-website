@@ -11,6 +11,7 @@
     1. "What's in the Fridge? - a project so that you do not need to get up from the couch :) <br/>
     2. "The Robot that never falls down" - the name says it all! <br/>
     3. "Never going to lock you out" - build the ultimate door lock system for your house.<br/>
+    <br/>The Arduino software needed to start the projects can be found here: <a href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a>
     </h2>
     <v-timeline align-top dense>
       <v-timeline-item
