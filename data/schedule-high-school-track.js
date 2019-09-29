@@ -33,7 +33,7 @@ export default [
     tracks: [
       {
         name: 'Introduction to Arduino Based Programming and Projects',
-        location: 'Room #1, Erie Hall'
+        location: 'High School Track Room, Erie Hall'
       }
     ]
   },
@@ -55,15 +55,15 @@ export default [
       },
       {
         name: 'Sponsor Session',
-        location: 'Room #2, Odette Building',
+        location: 'Room 108, Odette Building',
       },
       {
         name: 'Sponsor Session',
-        location: 'Room #3, Odette Building',
+        location: 'Room 110, Odette Building',
       },
       {
         name: 'Sponsor Session',
-        location: 'Room #4, Odette Building',
+        location: 'Room 112, Odette Building',
       }
     ]
   },
@@ -72,7 +72,7 @@ export default [
     tracks: [
       {
         name: 'Build a Project!',
-        location: 'Room #1, Erie Hall'
+        location: 'High School Track Room, Erie Hall'
       }
     ]
   },

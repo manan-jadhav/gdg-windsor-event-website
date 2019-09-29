@@ -41,17 +41,17 @@ export default [
       },
       {
         name: 'Actions on Google',
-        location: 'Room #2, Odette Building',
+        location: 'Room 108, Odette Building',
         speaker: _.find(speakers, {id: 'kyle'})
       },
       {
         name: 'Agile AI Testing',
-        location: 'Room #3, Odette Building',
+        location: 'Room 110, Odette Building',
         speaker: _.find(speakers, {id: 'godfrey'})
       },
       {
         name: 'The State of CyberSecurity Today',
-        location: 'Room #4, Odette Building',
+        location: 'Room 112, Odette Building',
         speaker: _.find(speakers, {id: 'brian'})
       }
     ]
@@ -66,17 +66,17 @@ export default [
       },
       {
         name: 'An Overview of Firebase',
-        location: 'Room #2, Odette Building',
+        location: 'Room 108, Odette Building',
         speaker: _.find(speakers, {id: 'sumit'})
       },
       {
         name: 'Enabling Technology behind Autonomous Vehicles',
-        location: 'Room #3, Odette Building',
+        location: 'Room 110, Odette Building',
         speaker: _.find(speakers, {id: 'gaurav'})
       },
       {
         name: 'The Mental Health Code',
-        location: 'Room #4, Odette Building',
+        location: 'Room 112, Odette Building',
         speaker: _.find(speakers, {id: 'jeannette'})
       }
     ]
@@ -99,15 +99,15 @@ export default [
       },
       {
         name: 'Sponsor Session',
-        location: 'Room #2, Odette Building',
+        location: 'Room 108, Odette Building',
       },
       {
         name: 'Sponsor Session',
-        location: 'Room #3, Odette Building',
+        location: 'Room 110, Odette Building',
       },
       {
         name: 'Sponsor Session',
-        location: 'Room #4, Odette Building',
+        location: 'Room 112, Odette Building',
       }
     ]
   },
@@ -121,17 +121,17 @@ export default [
       },
       {
         name: 'Containers, Kubernetes, and the Multi-cloud journey',
-        location: 'Room #2, Odette Building',
+        location: 'Room 108, Odette Building',
         speaker: _.find(speakers, {id: 'gary'})
       },
       {
         name: 'OOP VS Dopamine Lead Programming',
-        location: 'Room #3, Odette Building',
+        location: 'Room 110, Odette Building',
         speaker: _.find(speakers, {id: 'christa'})
       },
       {
         name: 'Get to Know & Get Plugged into the Windsor-Essex Tech Scene',
-        location: 'Room #4, Odette Building',
+        location: 'Room 112, Odette Building',
         speaker: _.find(speakers, {id: 'yvonne'})
       }
     ]
@@ -146,17 +146,17 @@ export default [
       },
       {
         name: 'Feature Reduction Based on Performance and Cost',
-        location: 'Room #2, Odette Building',
+        location: 'Room 108, Odette Building',
         speaker: _.find(speakers, {id: 'richard'})
       },
       {
         name: 'A new Cyberspace of Connected Vehicles: Secure or Not?',
-        location: 'Room #3, Odette Building',
+        location: 'Room 110, Odette Building',
         speaker: _.find(speakers, {id: 'ikjot'})
       },
       {
         name: 'From Invention to Implementation, Our Digital Transformation Journey',
-        location: 'Room #4, Odette Building',
+        location: 'Room 112, Odette Building',
         speaker: _.find(speakers, {id: 'mark'})
       }
     ]
@@ -180,17 +180,17 @@ export default [
       },
       {
         name: 'An Overview of Google Home Automation',
-        location: 'Room #2, Odette Building',
+        location: 'Room 108, Odette Building',
         speaker: _.find(speakers, {id: 'shawn'})
       },
       {
         name: 'Machine Learning Interpretability',
-        location: 'Room #3, Odette Building',
+        location: 'Room 110, Odette Building',
         speaker: _.find(speakers, {id: 'ali'})
       },
       {
         name: 'Flutter for Web',
-        location: 'Room #4, Odette Building',
+        location: 'Room 112, Odette Building',
         speaker: _.find(speakers, {id: 'don'})
       }
     ]
