@@ -34,7 +34,7 @@
       </v-toolbar-title>
       <v-spacer />
       <v-toolbar-items class="hidden-sm-and-down" >
-        <!-- <v-menu offset-y>
+        <v-menu offset-y>
           <template v-slot:activator="{ on }">
             <v-btn flat v-on="on">
               Schedule
@@ -48,7 +48,7 @@
               <v-list-tile-title>High School Track</v-list-tile-title>
             </v-list-tile>
           </v-list>
-        </v-menu> -->
+        </v-menu>
         <v-btn v-for="item in items" :key="item.title" :href="item.href" :to="item.to" flat>
           {{item.title}}
         </v-btn>
@@ -57,12 +57,12 @@
       <v-menu  class="hidden-md-and-up"> 
         <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
         <v-list>
-          <!-- <v-list-tile :to="'/schedule/main-event'">
+          <v-list-tile :to="'/schedule/main-event'">
               <v-list-tile-title>Schedule: Main Event</v-list-tile-title>
           </v-list-tile>
           <v-list-tile :to="'/schedule/high-school-track'">
             <v-list-tile-title>Schedule: High School Track</v-list-tile-title>
-          </v-list-tile> -->
+          </v-list-tile>
           <v-list-tile
             v-for="item in items"
             :key="item.title"
@@ -148,12 +148,8 @@ export default {
         //   to: '/'
         // },
         {
-          title: 'Schedule (Main Event)',
-          to: '/schedule/main-event'
-        },
-        {
-          title: 'Schedule (High School Track)',
-          to: '/schedule/high-school-track'
+          title: 'Venue Map',
+          href: '/map.png'
         },
         {
           title: 'Speakers',
