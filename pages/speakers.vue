@@ -1,6 +1,6 @@
 <template>
   <v-layout column>
-    <h1 class="display-2 mb-2">Stay tuned as we add new speakers!</h1>
+    <h1 class="display-2 mb-2">Meet our Speakers</h1>
 
     <v-container grid-list-md>
       <v-layout row wrap>

@@ -45,9 +45,9 @@ export default [
         speaker: _.find(speakers, {id: 'kyle'})
       },
       {
-        name: 'Agile AI Testing',
+        name: 'Coming Soon',
         location: 'Room 110, Odette Building',
-        speaker: _.find(speakers, {id: 'godfrey'})
+        speaker: _.find(speakers, {id: 'coming soon'})
       },
       {
         name: 'The State of CyberSecurity Today',
@@ -174,9 +174,9 @@ export default [
     time: '3:10 PM - 3:55 PM',
     tracks: [
       {
-        name: 'Coming Soon - How to Build an Innovation Program',
+        name: 'Entrepreneurship in the Tech Sector',
         location: 'Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'comingsoon'})
+        speaker: _.find(speakers, {id: 'frank'})
       },
       {
         name: 'An Overview of Google Home Automation',

@@ -3,22 +3,20 @@ import sumitchandel from "../static/speakers/sumit_chandel.jpeg";
 import markkrysta from "../static/speakers/mark_kryska.jpg";
 import alielsharif from "../static/team/ali.png";
 import donward from "../static/team/don.png";
-import godfreynolan from "../static/speakers/godfrey_nolan.jpg";
 import garyocoburn from "../static/speakers/gary_coburn.jpeg";
 import guaravkumarsingh from "../static/speakers/gaurav_kumar_singh.jpg";
 import jeanettewashington from "../static/speakers/jeannette_washington.jpg";
-import harishbhaskar from "../static/speakers/harish_bhaskar.jpg";
 import kylepaul from "../static/speakers/kylepaul.jpg";
-import lizmerritt from "../static/speakers/liz_merritt.jpeg";
 import kartikkuber from "../static/speakers/karthik_kuber.jpeg";
 import annielee from "../static/speakers/annie_lee.jpeg";
 import arafatkhan from "../static/speakers/arafat_khan.jpg";
-import christastephens from "../static/speakers/christa_stephens.png"
-import yvonnepilon from "../static/speakers/yvonne_pilon.jpg"
-import richardmccrae from "../static/speakers/richard_mccrae.jpeg"
-import briangernon from "../static/speakers/brian_gernon.png"
-import ikjotsaini from "../static/speakers/ikjot-saini.jpg"
-import shawnelliot from "../static/speakers/shawn_elliot.png"
+import christastephens from "../static/speakers/christa_stephens.png";
+import yvonnepilon from "../static/speakers/yvonne_pilon.jpg";
+import richardmccrae from "../static/speakers/richard_mccrae.jpeg";
+import briangernon from "../static/speakers/brian_gernon.png";
+import ikjotsaini from "../static/speakers/ikjot-saini.jpg";
+import shawnelliot from "../static/speakers/shawn_elliot.png";
+import frankabbruzzese from "../static/speakers/frank_abbruzzese.png";
 
 export default [
   {
@@ -35,6 +33,21 @@ export default [
       twitter: "https://twitter.com/amirfzpr",
       // github: 'https://github.com',
       linkedin: "https://www.linkedin.com/in/amirfzpr/"
+    }
+  },
+  {
+    id: 'frank',
+    name: "Frank Abbruzzese",
+    title:
+      "President of AlphaKOR Group",
+    image: frankabbruzzese,
+    description:
+      "Frank Abbruzzese is the president of AlphaKOR Group, with over 31 years of experience in the Technology Sector.  Frank’ experiences include developing long-term relationships with companies and organizations, providing strategic planning for technology advancement, co-founder WEtech Alliance, Entrepreneur of the Year Chamber Business Excellence 2012, mentor and known as “The Connector”.",
+      sessionTitle: "Entrepreneurship in the Tech Sector",
+      session:"Frank Abbruzzese will share his experience as an entrepreneur in the local tech sector.",
+      socials: {
+      twitter: "https://twitter.com/FrankAbbruzzese",
+      linkedin: "https://linkedin.com/in/frankabbruzzese"
     }
   },
   {
@@ -189,22 +202,6 @@ export default [
       // twitter: "https://twitter.com/godfreynolan",
       // github: 'https://github.com/elsharifali',
       linkedin: "https://www.linkedin.com/in/rick-mccrae-2057935"
-    }
-  },
-  {
-    id: 'godfrey',
-    name: "Godfrey Nolan",
-    title: "Founder and President of RIIS LLC",
-    image: godfreynolan,
-    description:
-      'Godfrey Nolan is founder and president of RIIS LLC, a mobile development firm in Troy. He is also the author of "Agile Android", "Bulletproof Android", "Android Best Practices", "Decompiling Android" and "Decompiling Java." Godfrey has spoken at DroidCon, AnDevcon as well as JavaOne, ASP-Connections, VSLive, Codemash, Code PaLOUsa, 1DevDay and many local Java and .Net user groups on a wide range of topics such as Continuous Integration, Unit Testing and mobile security.',
-    sessionTitle: "Agile AI Testing",
-    session: "Common Agile practice is to write lots of unit tests and API tests and only a few User Interface tests. Why? Because if the UI changes then you're going to have to rewrite all of your UI tests. But what if we could use Artificial Intelligence to help us out. Many of our apps have the same functionality such as login, checkout, share, pay etc. So what if we could train a neural network to test our apps? In this session we'll look at Test.ai and how it uses Object Detection and labeling techniques to make our UI tests less brittle.",
-    socials: {
-      // facebook: 'https://facebook.com/ali.elsharif.969',
-      twitter: "https://twitter.com/godfreynolan",
-      // github: 'https://github.com/elsharifali',
-      linkedin: "https://www.linkedin.com/in/godfrey-nolan"
     }
   },
   {
