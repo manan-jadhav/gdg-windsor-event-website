@@ -1,10 +1,9 @@
 <template>
   <v-layout column>
-    <h1 class="display-2 mb-2">Main Event Schedule (Tentative)</h1>
-    <p class="mb-10">This will be finalized one week before the event.</p>
+    <h1 class="display-2 mb-2">Main Event Schedule</h1>
     <h3>Oct. 5, 2019</h3>
     <h3>Odette Building, University of Windsor</h3>
-    <a href="/schedule/high-school-track">Looking for High School track schedule?</a>
+    <a href="/schedule/high-school-track">Looking for the High School track schedule?</a>
     <br />
     <v-timeline align-top dense>
       <v-timeline-item

@@ -1,10 +1,9 @@
 <template>
   <v-layout column>
-    <h1 class="display-2 mb-2">High School Track Schedule (Tentative)</h1>
-    <p class="mb-10">This will be finalized one week before the event.</p>
+    <h1 class="display-2 mb-2">High School Track Schedule</h1>
     <h3>Oct. 5, 2019</h3>
-    <h3>Erie Hall, University of Windsor</h3>
-    <a href="/schedule/main-event">Looking for Main Event schedule?</a>
+    <h3>Odette Building, University of Windsor</h3>
+    <a href="/schedule/main-event">Looking for the Main Event schedule?</a>
     <br />
     <h2>The aim of the High School Track is to teach a group of 30 students how to program. During it, students will be working with Arduino Microcontrollers to build a wide range of projects from a self-balancing robots to line-tracking robots. The session will be led by instructors from local high schools and university students. Students will keep what they build to continue working on after the event.
     <br/><br/>Some of the projects we will build include, <br/>

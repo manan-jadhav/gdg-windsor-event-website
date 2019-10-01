@@ -13,7 +13,7 @@ export default [
     ]
   },
   {
-    time: '8:45 AM - 9:00 AM',
+    time: '8:45 AM - 9:10 AM',
     tracks: [
       {
         name: 'Introductions',
@@ -22,7 +22,7 @@ export default [
     ]
   },
   {
-    time: '9:00 AM - 9:50 AM',
+    time: '9:10 AM - 10:00 AM',
     tracks: [
       {
         name: 'Keynote Speech - Bridging the AI Translation Gap',
@@ -32,7 +32,7 @@ export default [
     ]
   },
   {
-    time: '10:00 AM - 10:45 AM',
+    time: '10:10 AM - 10:55 AM',
     tracks: [
       {
         name: 'The Ingredients of a Practical Course on ML at Scale for the Modern Data Scientist',
@@ -45,19 +45,14 @@ export default [
         speaker: _.find(speakers, {id: 'kyle'})
       },
       {
-        name: 'Coming Soon',
-        location: 'Room 110, Odette Building',
-        speaker: _.find(speakers, {id: 'coming soon'})
-      },
-      {
         name: 'The State of CyberSecurity Today',
-        location: 'Room 112, Odette Building',
+        location: 'Room 110, Odette Building',
         speaker: _.find(speakers, {id: 'brian'})
       }
     ]
   },
   {
-    time: '10:50 AM - 11:35 AM',
+    time: '11:05 AM - 11:50 AM',
     tracks: [
       {
         name: 'Introducing Tensorflow Ruby API',
@@ -82,7 +77,7 @@ export default [
     ]
   },
   {
-    time: '11:45 AM - 12:45 PM',
+    time: '12:00 PM - 1:00 PM',
     tracks: [
       {
         name: 'Lunch',
@@ -91,28 +86,7 @@ export default [
     ]
   },
   {
-    time: '12:45 PM - 1:15 PM',
-    tracks: [
-      {
-        name: 'Sponsor Session',
-        location: 'Allan Conway Room , Odette Building',
-      },
-      {
-        name: 'Sponsor Session',
-        location: 'Room 108, Odette Building',
-      },
-      {
-        name: 'Sponsor Session',
-        location: 'Room 110, Odette Building',
-      },
-      {
-        name: 'Sponsor Session',
-        location: 'Room 112, Odette Building',
-      }
-    ]
-  },
-  {
-    time: '1:20 PM - 2:05 PM',
+    time: '1:00 PM - 1:45 PM',
     tracks: [
       {
         name: 'Progressive Web',
@@ -137,7 +111,7 @@ export default [
     ]
   },
   {
-    time: '2:10 PM - 2:55 PM',
+    time: '1:55 PM - 2:40 PM',
     tracks: [
       {
         name: 'Machine Learning Life-Cycle applied to Text Classification',
@@ -162,7 +136,7 @@ export default [
     ]
   },
   {
-    time: '2:55 PM - 3:10 PM',
+    time: '2:40 PM - 3:10 PM',
     tracks: [
       {
         name: 'Break',
@@ -199,7 +173,7 @@ export default [
     time: '4:00 PM - 4:30 PM',
     tracks: [
       {
-        name: 'Wrap Up',
+        name: 'Wrap Up & Prize Give Away',
         location: 'Allan Conway Room , Odette Building',
       }
     ]

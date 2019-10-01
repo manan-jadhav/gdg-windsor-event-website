@@ -10,7 +10,7 @@ export default [
     ]
   },
   {
-    time: '8:45 AM - 9:00 AM',
+    time: '8:45 AM - 9:10 AM',
     tracks: [
       {
         name: 'Introductions',
@@ -19,7 +19,7 @@ export default [
     ]
   },
   {
-    time: '9:00 AM - 9:50 AM',
+    time: '9:10 AM - 10:00 AM',
     tracks: [
       {
         name: 'Keynote Speech',
@@ -29,16 +29,16 @@ export default [
     ]
   },
   {
-    time: '10:00 AM - 11:45 AM',
+    time: '10:10 AM - 12:00 PM',
     tracks: [
       {
         name: 'Introduction to Arduino Based Programming and Projects',
-        location: 'High School Track Room, Erie Hall'
+        location: 'High School Track Room, Odette Building'
       }
     ]
   },
   {
-    time: '11:45 AM - 12:45 PM',
+    time: '12:00 PM - 1:00 PM',
     tracks: [
       {
         name: 'Lunch',
@@ -47,32 +47,29 @@ export default [
     ]
   },
   {
-    time: '12:45 PM - 1:15 PM',
+    time: '1:00 PM - 2:40 PM',
     tracks: [
       {
-        name: 'Sponsor Session',
-        location: 'Allan Conway Room , Odette Building',
-      },
-      {
-        name: 'Sponsor Session',
-        location: 'Room 108, Odette Building',
-      },
-      {
-        name: 'Sponsor Session',
-        location: 'Room 110, Odette Building',
-      },
-      {
-        name: 'Sponsor Session',
-        location: 'Room 112, Odette Building',
+        name: 'Build a Project!',
+        location: 'High School Track Room, Odette Building'
       }
     ]
   },
   {
-    time: '1:25 PM - 4:00 PM',
+    time: '2:40 PM - 3:10 PM',
+    tracks: [
+      {
+        name: 'Break',
+        location: 'Main Lobby, Odette Building',
+      }
+    ]
+  },
+  {
+    time: '3:10 PM - 4:00 PM',
     tracks: [
       {
         name: 'Build a Project!',
-        location: 'High School Track Room, Erie Hall'
+        location: 'High School Track Room, Odette Building'
       }
     ]
   },
@@ -80,7 +77,7 @@ export default [
     time: '4:00 PM - 4:30 PM',
     tracks: [
       {
-        name: 'Wrap Up',
+        name: 'Wrap Up & Prize Give Away',
         location: 'Allan Conway Room, Odette Building',
       }
     ]
