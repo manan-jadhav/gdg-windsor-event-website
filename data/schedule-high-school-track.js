@@ -3,7 +3,7 @@ export default [
     time: '8:00 AM - 8:45 AM',
     tracks: [
       {
-        name: 'Registration',
+        name: 'Registration & Networking',
         location: 'Main Lobby, Odette Building',
         subtitle: 'Check your names and get your schwag!',
       }
