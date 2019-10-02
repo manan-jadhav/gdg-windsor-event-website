@@ -26,7 +26,7 @@ export default [
     tracks: [
       {
         name: 'Keynote Speech - Bridging the AI Translation Gap',
-        location: 'Allan Conway Room , Odette Building',
+        location: 'Room 104 - Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'amir'})
       }
     ]
@@ -36,7 +36,7 @@ export default [
     tracks: [
       {
         name: 'The Ingredients of a Practical Course on ML at Scale for the Modern Data Scientist',
-        location: 'Allan Conway Room , Odette Building',
+        location: 'Room 104 - Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'karthik'})
       },
       {
@@ -56,7 +56,7 @@ export default [
     tracks: [
       {
         name: 'Introducing Tensorflow Ruby API',
-        location: 'Allan Conway Room , Odette Building',
+        location: 'Room 104 - Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'arafat'})
       },
       {
@@ -90,7 +90,7 @@ export default [
     tracks: [
       {
         name: 'Progressive Web',
-        location: 'Allan Conway Room , Odette Building',
+        location: 'Room 104 - Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'kyle'})
       },
       {
@@ -115,7 +115,7 @@ export default [
     tracks: [
       {
         name: 'Machine Learning Life-Cycle applied to Text Classification',
-        location: 'Allan Conway Room , Odette Building',
+        location: 'Room 104 - Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'annie'})
       },
       {
@@ -149,7 +149,7 @@ export default [
     tracks: [
       {
         name: 'Entrepreneurship in the Tech Sector',
-        location: 'Allan Conway Room , Odette Building',
+        location: 'Room 104 - Allan Conway Room , Odette Building',
         speaker: _.find(speakers, {id: 'frank'})
       },
       {
@@ -174,7 +174,7 @@ export default [
     tracks: [
       {
         name: 'Wrap Up & Prize Give Away',
-        location: 'Allan Conway Room , Odette Building',
+        location: 'Room 104 - Allan Conway Room , Odette Building',
       }
     ]
   },

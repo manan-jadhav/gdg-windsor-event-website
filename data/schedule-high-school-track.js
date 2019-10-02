@@ -14,7 +14,7 @@ export default [
     tracks: [
       {
         name: 'Introductions',
-        location: 'Allan Conway Room, Odette Building',
+        location: 'Room 104 - Allan Conway Room, Odette Building',
       }
     ]
   },
@@ -23,7 +23,7 @@ export default [
     tracks: [
       {
         name: 'Keynote Speech',
-        location: 'Allan Conway Room, Odette Building',
+        location: 'Room 104 - Allan Conway Room, Odette Building',
         speaker: 'Amir Feizpour'
       }
     ]
@@ -78,7 +78,7 @@ export default [
     tracks: [
       {
         name: 'Wrap Up & Prize Give Away',
-        location: 'Allan Conway Room, Odette Building',
+        location: 'Room 104 - Allan Conway Room, Odette Building',
       }
     ]
   },
