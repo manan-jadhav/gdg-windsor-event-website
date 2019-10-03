@@ -76,6 +76,7 @@ import alphaKOR from "../static/alphaKOR.png";
 import motifworks from "../static/motifworks.png";
 import stclair from "../static/StClair.png";
 import ql from "../static/RocketMortgage.jpeg";
+import avin from "../static/AVIN.png";
 
 export default {
   data: () => ({
@@ -188,6 +189,19 @@ export default {
       }
     ],
     community_sponsors: [
+      {
+        name: "Ontario’s Autonomous Vehicle Innovation Network (AVIN)",
+        image: avin,
+        description:
+          'The University of Windsor co-op and internship programs integrate valuable work experience with classroom learning and professional development activities to ensure that students develop the transferable skills employers are looking for. Co-op and internship staff and UWindsor faculty members work closely to ensure that our programs are responsive to students needs and to overall enhance the student experience.',
+        link:"http://www.avinhub.ca/",
+        socials: {
+          // facebook: 'https://www.facebook.com/UWindsor/',
+          // twitter: "https://twitter.com/hackforge",
+          // github: 'https://github.com/donwardpeng',
+          // linkedin: "https://www.linkedin.com/company/hackforge/about/"
+        }
+      },
       {
         name: "University of Windsor Co-op and Internship Programs",
         image: uofwcoop,

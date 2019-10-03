@@ -17,6 +17,7 @@ import briangernon from "../static/speakers/brian_gernon.png";
 import ikjotsaini from "../static/speakers/ikjot-saini.jpg";
 import shawnelliot from "../static/speakers/shawn_elliot.png";
 import frankabbruzzese from "../static/speakers/frank_abbruzzese.png";
+import braydenberson from "../static/speakers/brayden_berson.jpg";
 
 export default [
   {
@@ -48,6 +49,20 @@ export default [
       socials: {
       twitter: "https://twitter.com/FrankAbbruzzese",
       linkedin: "https://linkedin.com/in/frankabbruzzese"
+    }
+  },
+  {
+    id: 'brayden',
+    name: "Brayden Berson",
+    title: "Technical Engineer, Simon Group Holdings",
+    image: braydenberson,
+    description:
+      "Brayden Berson in a recent graduate of Kettering University’s Mechanical Engineering program. He is currently employed by Simon Group Holdings as a technical engineer. His responsibilities include system level engineering of fuel dispensing units in the marine, international, and domestic markets. Brayden is currently listed on four pending patents for innovation in the marine fueling sector. Brayden explores software development during his free time including competing at the state level during his time in high school. He continues to implement feedback and monitoring technologies into new product designs in the oil and gas industry. Brayden currently resides in Harrison Charter township, MI with his girlfriend.",
+    sessionTitle: "Arduino Controllers and My Journey",
+    session:
+      "As part of our High School Track, Brayden will present an example project he implemented with Arduino controllers to demonstrate that the skills learned with these 'toy' projects can lead to real world projects down the road.",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/brayden-berson-1bb267143/",
     }
   },
   {
