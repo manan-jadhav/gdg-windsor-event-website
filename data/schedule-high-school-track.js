@@ -47,7 +47,17 @@ export default [
     ]
   },
   {
-    time: '1:00 PM - 2:40 PM',
+    time: '1:00 PM - 1:30 PM',
+    tracks: [
+      {
+        name: 'Arduino Controllers and My Journey',
+        location: 'High School Track Room, Odette Building',
+        speaker: 'Braydon Berson'
+      }
+    ]
+  },
+  {
+    time: '1:30 PM - 2:40 PM',
     tracks: [
       {
         name: 'Build a Project!',
