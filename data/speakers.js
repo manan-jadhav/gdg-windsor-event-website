@@ -29,6 +29,7 @@ export default [
       'Amir Feizpour is the founder of <a href="https://ai.science/">Aggregate Intellect</a>, a company focused on making machine learning research and education more accessible, and runs a popular talk series called <a href="https://aisc.ai.science/">AISC</a>, on advanced machine learning topics. <p><p>Amir is a member of the steering committee of the Toronto Machine Learning Summit. In addition to these responsibilities, he is an NLP Product Lead on the Enterprise Data Science team at the Royal Bank of Canada. Prior to his current position, he held a post-doctoral position at the University of Oxford conducting research on experimental quantum computing. Amir holds a PhD in Physics from the University of Toronto.',
     sessionTitle: "Bridging the AI Translation Gap",
     session:"Canada has been the birth place for many AI breakthroughs but we are still far behind countries like the United States and China in terms of translating all the innovation and brain power into impactful technologies.<p><p>There is a larger challenge in Canada where we are producing tens of thousands of AI related papers every year globally, a large number of which, for good or bad reasons, go completely unnoticed, and the few ones that makes a splash rarely result in significant technological advances. This so called translation gap has existed in many areas but we now have a historical opportunity to address the problem more efficiently using AI. During this talk, Amir will share his thoughts about why this gap exists and more importantly why it is widening. Additionally he will share what some of the early signs are that we have an opportunity to reinvent the way we do inventions.",
+    slidedeck:"https://drive.google.com/open?id=0B1q5xwgmCYtRV2I5Z2ZjajJRYmFTeldaRWJJZUd1SjNWRUY4",
     socials: {
       // facebook: 'https://facebook.com',
       twitter: "https://twitter.com/amirfzpr",
@@ -119,6 +120,7 @@ export default [
       "Ali El-Sharif lives in Windsor and works as a Business Intelligence Consultant for Motifworks in metro Detroit.  Ali is a Ph.D. candidate at Nova Southeastern University, conducting research in Machine Learning interpretability.",
     sessionTitle: "Machine Learning Interpretability",
     session:"Despite Machine Learning models being increasingly used in critical decision making and meeting classification accuracy standards, they remain untrusted black boxes due to decision makers lack of insight into their inner logic.  Therefore, it is necessary to develop interpretable Machine Learning models that will engender trust in the knowledge they generate and contribute to individual decision makers intention to adopt them in the field.  This talk will present the importance of Machine Learning interpretability, challenges to developing interpretable models and emerging research/techniques to make Machine Learning models more interpretable.",  
+    slidedeck:"https://drive.google.com/open?id=0B1q5xwgmCYtRRTdmeGdYemJweHRWMkkxa0JiOEVkSHllOXpN",
     socials: {
       // facebook: "https://facebook.com/ali.elsharif.969",
       // twitter: "https://twitter.com/elsharifali",
@@ -212,7 +214,8 @@ export default [
       "Richard McCrae is a seasoned IT professional with 20 years of experience mostly in the automated testing arena.  For most of the last 15 years, he has been an independent consultant with Compulogic Corp in Michigan.  He completed his PhD in Computer Science from Nova Southeastern University in 2018.  He is primarily interested in AI, especially decision making.",   	
       sessionTitle: "Feature Reduction Based on Performance and Cost",
       session: "Neural Networks and Decision Trees are often used as classifiers, frequently with respect to medical diagnosis.  One issue is that all of the input features (tests) are determined and then the diagnosis is generated.  All tests have a cost which might include pain or discomfort, inconvenience, risk of present or future complications and, of course, the outright dollar cost.  Further, costs might be quite dynamic varying from person to person and place to place.  My approach selects a ‘good enough’ approach to the results obtained and was able to reduce the number of features required across a collection of different diagnoses and to dynamically respond to costs.  As a bonus, the results obtained were frequently better than those using all of the input features.",
-    socials: {
+      slidedeck:"https://drive.google.com/open?id=0B1q5xwgmCYtRV25GZlgxbzN2Qklqc1RSczZrbldzR201R3NZ",
+      socials: {
       // facebook: 'https://facebook.com/ali.elsharif.969',
       // twitter: "https://twitter.com/godfreynolan",
       // github: 'https://github.com/elsharifali',
@@ -244,6 +247,7 @@ export default [
       'Yvonne Pilon is the President and CEO of WEtech Alliance, 1 of 17 Regional Innovation Centres funded by the Province of Ontario. At the age of 24, she founded her first tech venture, AD2IT, and by the age of 29, she became the youngest female to lead a Regional Innovation Centre. Yvonne has over 10 years experience in the tech sector with a core focus on growing companies and building a thriving entrepreneurial community. Yvonne recently took her love for tech to the airwaves as Host of the ‘Tech In The City’ podcast where she likes to consider herself the Carrie Bradshaw of tech. Yvonne was also just recognized as a Top Social Media Influencer in Canadian Tech. Follow her at @yvonnepilon.',
     sessionTitle: "Get to Know & Get Plugged into the Windsor-Essex Tech Scene",
     session: "The Windsor-Essex Tech Scene has a lot to offer! You need to be plugged into it - whether you are a student, professional or an employer. In this session, Yvonne will share how to uncover opportunities to network, land that prized tech job, tap into the pool of local tech talent, and connect with our region’s growing tech community and its programs, events and initiatives.",
+    slidedeck:"https://drive.google.com/open?id=0B1q5xwgmCYtRaGNSUGxxZzFaQmZBMS1hVFVWeVNFeXJwTExN",
     socials: {
       // facebook: 'https://facebook.com/ali.elsharif.969',
       twitter: "https://twitter.com/yvonnepilon",
@@ -260,6 +264,7 @@ export default [
       "Ikjot Saini is pursuing her Ph.D. in Cybersecurity of Connected Vehicles in the School of Computer Science at the University of Windsor. Currently, her research focuses on the location privacy in vehicular networks. She is passionate about cyber security and given the breadth of this field, she has a keen interest to learn new tools and techniques. Her recent research interests focus on cybersecurity and privacy issues in Vehicular Ad hoc Networks, pseudonymous authentication and security credential management systems in the vehicular environment. She leads the Women in Cybersecurity (WiCyS) Windsor Student Chapter. Her community involvement includes different outreach events as Scientist Like Her, Soapbox Science and GoCodeGirl, where she presented and engaged with other young women to learn science and coding.",
       sessionTitle:"A new Cyberspace of Connected Vehicles: Secure or Not?",
       session:"The emerging technology of Connected Vehicles is dedicated for the increasing safety and prevention of the traffic congestion due to growing number of vehicles on the road. It provides communication services among nearby vehicles and with roadside infrastructure. This introduces a new cyberspace of talking vehicles. In this session, we will talk about the underlying potential security threats and privacy concerns of this technology.",
+      slidedeck:"https://drive.google.com/open?id=0B1q5xwgmCYtRS2dUaEpkNWx1S2hMSUxvWWlSUC02Vlc5OTEw",
       socials: {
       // facebook: 'https://facebook.com/ali.elsharif.969',
       // twitter: 'https://twitter.com/godfreynolan',
@@ -307,6 +312,7 @@ export default [
       "I'm Jeannette Washington, M.Ed. I worked as a Speech Pathologist for a number of years before attending a coding bootcamp and transcending into a role with Microsoft teaching high school girls to code. My passion for exceptional learners has helped me ignite conversations across multiple dimensions of diversity in the tech industry. I currently teach introductory coding courses at Grand Circus Detroit and Im pioneering a company called Bearly Articulating, a concierge style, equity, diversity and inclusivity (D&I) think tank.",
     sessionTitle: "The Mental Health Code",
     session: "With 1 in 5 adults living with mental illness, such as depression and anxiety, it's safe to acknowledge that how we define diversity and inclusion has to evolve. Though noticeable efforts in intersections like race, class, gender and sexual identity have been made, when will mental health be apart of the diversity and inclusion pitch? <p><p>Learn ways that companies like Google are leading the charge to destigmatize mental health, understand your role in supporting mental health awareness and adopt techniques to safeguard your mental health while working on demanding projects. ",
+    slidedeck:"https://bit.ly/TheMentalCode",
     socials: {
       // facebook: 'https://facebook.com/ali.elsharif.969',
       twitter: "https://twitter.com/BearlyArtic",
@@ -323,6 +329,7 @@ export default [
       "Don Ward is a Senior Research Engineer at Quicken Loans, the nation's largest mortgage lender, which is based in Detroit, Michigan. As the previous Director of Mobile Development at Quicken Loans, he has been building mobile apps for the past 10 years. He leads the local chapters of the Google Developers Group in Detroit and Windsor, Canada. Always up for a good challenge, Don entered and won a 24-hour hackathon leveraging the power of wearables such as the Apple Watch. Recently, Don purchased an oversized boat and has been honing his captain skills on the Detroit River and Great Lakes. As an avid lover of all things Android, he's waiting on the boating industry to release an excellent Android chart plotter so he can write apps for his boat. To stay up-to-date with Don, follow him on Twitter at @donwardpeng.",
     sessionTitle:"Flutter for Web",
     session:"In this talk, we will talk about the current state of Flutter for Web and considerations for developing a website using it.",
+    slidedeck:"https://drive.google.com/file/d/1xBckKnrjf6nhGca6sGMFL3CRLLTGS4Hw/view?usp=sharing",
     socials: {
       facebook: "https://www.facebook.com/don.ward.395",
       twitter: "https://twitter.com/donwardpeng",

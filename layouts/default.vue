@@ -155,6 +155,10 @@ export default {
           title: 'Speakers',
           to: '/speakers'
         },
+        {
+          title: 'Slides',
+          to: '/slides'
+        },
         // {
         //   title: 'Register',
         //   to: '/tickets'
